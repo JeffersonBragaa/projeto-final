@@ -1,0 +1,40 @@
+header {
+    background-color:rgba(136, 151, 192, 0.315);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 1rem;
+    width: 100%;
+}
+
+.header-page {
+    display: flex;
+    gap: 1rem;
+    align-items: center;
+    justify-content: center; 
+    width: 100%;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0 0 1rem 0;
+    display: flex;
+    justify-content: center;
+}
+
+nav ul li a {
+    color: white;
+    font-weight: bold;
+}
+
+nav ul li a:hover {
+    text-decoration: underline;
+}
+
+
+h1 {
+    color: white;
+    margin: 0;
+    font-size: 1.5rem;
+}

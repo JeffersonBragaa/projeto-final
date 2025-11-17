@@ -1,0 +1,93 @@
+
+main {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    min-height: 100vh; /* cobre a tela inteira */
+    overflow: hidden;  /* esconde qualquer sobra */
+}
+
+/* fundo embaçado usando PSEUDO-ELEMENTO */
+main::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+
+    background-image: url('/main-img.jpg');
+    background-size: cover;
+    background-position: center;
+
+    background-repeat: no-repeat;
+
+    filter: blur(6px);
+    transform: scale(1.1); /* evita bordas e espaços brancos */
+}
+
+/* Card principal */
+.card {
+    display: flex;
+    flex-direction: column;
+    width: 80%;
+    align-items: center;
+    justify-content: center;
+
+    h1{
+        color: black;
+    }
+}
+
+/* Card de apresentação */
+.card-apresentacao {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    border: solid black 1px;
+    padding: 1rem;
+    margin-top: 1rem;
+    width: 100%;
+    gap: 1rem;  /* melhora o espaçamento */
+}
+
+/* Texto introdutório */
+.introducao {
+    display: flex;
+    flex-direction: column;  /* CORRIGIDO */
+    align-items: center;
+    width: 100%;
+    div{
+        display: flex;
+        flex-direction: column;
+        text-align: left;
+    }
+}
+
+/* Primeiro passo (login/registro) */
+.primeiro-passo {
+    display: flex;
+    flex-direction: column;
+    border: solid black 1px;
+    padding: 1rem;
+    margin-top: 1rem;
+    width: 100%;
+    gap: 1.5rem;
+    align-items: center;
+}
+
+/* Login e registro */
+.login, .register {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+button {
+    padding: 0.5rem 1rem;
+    cursor: pointer;
+}
