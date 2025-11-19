@@ -26,10 +26,10 @@ export default function DashInicial() {
 
                 </div>
 
-                <h2>Vamos começar essa aventura cinematográfica?</h2>
 
                 <div className='primeiro-passo'>
 
+                    <h2 id='sub-title'>Vamos começar essa aventura cinematográfica?</h2>
                     <div className='login'>
                         <p><strong>Já tem uma conta?</strong></p>
                         <button>Login</button>

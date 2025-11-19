@@ -1,45 +1,59 @@
+/* garante que nada estoure horizontalmente */
+* {
+    box-sizing: border-box;
+}
+html, body {
+    overflow-x: hidden;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+}
 
+/* MAIN */
 main {
     position: relative;
     display: flex;
     flex-direction: column;
     align-items: center;
+
     width: 100%;
-    min-height: 100vh; /* cobre a tela inteira */
-    overflow: hidden;  /* esconde qualquer sobra */
+    min-height: 100vh;
+
+    overflow: hidden; /* impede estourar o lado direito */
 }
 
-/* fundo embaçado usando PSEUDO-ELEMENTO */
+/* Fundo embaçado */
 main::before {
     content: "";
     position: absolute;
     top: 0;
     left: 0;
+
     width: 100%;
     height: 100%;
-    z-index: -1;
 
     background-image: url('/main-img.jpg');
     background-size: cover;
     background-position: center;
 
-    background-repeat: no-repeat;
-
-    filter: blur(6px);
-    transform: scale(1.1); /* evita bordas e espaços brancos */
+    filter: blur(7px);
+    transform: scale(6); /* garante que não apareçam bordas */
+    z-index: -1;
 }
 
 /* Card principal */
 .card {
     display: flex;
     flex-direction: column;
-    width: 80%;
+
+    width: 90%;
+    max-width: 700px;
+    padding: 3rem;
+    margin-top: 2rem;
+
     align-items: center;
     justify-content: center;
-
-    h1{
-        color: black;
-    }
+    gap: 2rem;
 }
 
 /* Card de apresentação */
@@ -48,36 +62,73 @@ main::before {
     flex-direction: column;
     align-items: center;
     text-align: center;
-    border: solid black 1px;
-    padding: 1rem;
-    margin-top: 1rem;
+    
+
+    background-color: hsla(0, 0%, 100%, 0.9);
+    border-style: outset;
+    border-radius: 1rem;
+
+    padding: 2rem;
     width: 100%;
-    gap: 1rem;  /* melhora o espaçamento */
+
+    box-shadow: 0.5rem 0.5rem 1rem rgba(0, 0, 0, 0.2);
+    border-left: 0.5rem solid #0000009f;
+    border-top: 0.5rem solid #0000009f;
+
+    gap: 1rem;
+
+    h1{
+        color: black;
+    }
 }
 
 /* Texto introdutório */
 .introducao {
     display: flex;
-    flex-direction: column;  /* CORRIGIDO */
+    flex-direction: column;
     align-items: center;
     width: 100%;
-    div{
-        display: flex;
-        flex-direction: column;
-        text-align: left;
-    }
+
 }
 
-/* Primeiro passo (login/registro) */
+.introducao div {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    text-align: left;
+}
+
+/* Primeiro passo */
 .primeiro-passo {
     display: flex;
     flex-direction: column;
-    border: solid black 1px;
-    padding: 1rem;
-    margin-top: 1rem;
+
+    background-color: hsla(0, 0%, 100%, 0.9);
+    border-style: outset;
+    border-radius: 1rem;
+
+    padding: 2rem;
     width: 100%;
+
+    box-shadow: 0.5rem 0.5rem 1rem rgba(0, 0, 0, 0.2);
+    border-left: 0.5rem solid #0000009f;
+    border-top: 0.5rem solid #0000009f;
+
     gap: 1.5rem;
     align-items: center;
+    text-align: center;
+}
+
+.primeiro-passo button {
+    background-color: #007BFF;
+    color: white;
+    border: none;
+
+    border-radius: 0.5rem;
+    padding: 0.75rem 1.5rem;
+    font-size: 1rem;
+
+    transition: background-color 0.3s ease;
 }
 
 /* Login e registro */
@@ -87,6 +138,7 @@ main::before {
     align-items: center;
 }
 
+/* Botão padrão */
 button {
     padding: 0.5rem 1rem;
     cursor: pointer;
