@@ -1,5 +1,5 @@
 import ImgFundo from '@/public/main-img.jpg';
-import '@/app/styles/dashInicial.css';
+import '@/src/app/styles/dashInicial.css';
 
 export default function DashInicial() {
     return (
@@ -32,14 +32,14 @@ export default function DashInicial() {
                     <h2 id='sub-title'>Vamos começar essa aventura cinematográfica?</h2>
                     <div className='login'>
                         <form action={'/login'}>
-                            <p><strong>Já tem uma conta?</strong></p>
+                            <p id='p-bnt'><strong>Já tem uma conta?</strong></p>
                             <button>Login</button>
                         </form>
                     </div>
 
                     <div className='register'>
                         <p><strong>É sua primeira vez?</strong></p>
-                        <p><a href="">Clique Aqui</a> e faça seu registro</p>
+                        <p><a href={'/create'}>Clique Aqui</a> e faça seu registro</p>
 
                     </div>
                 </div>

@@ -1,7 +1,6 @@
 import Image from "next/image";
 import bubinaLogo from '@/public/bubina.png';
-import '@/app/styles/header.css'; 
-import '@/app/styles/footer.css'
+import '@/src/app/styles/header.css';
 
 export default function Header(){
     return(

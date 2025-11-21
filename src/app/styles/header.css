@@ -16,6 +16,11 @@ header {
     align-items: center;
     justify-content: center; 
     width: 100%;
+
+    h1{
+        color: white;
+        font-size: 2rem;
+    }
 }
 
 /* Remove espaço padrão do navegador */

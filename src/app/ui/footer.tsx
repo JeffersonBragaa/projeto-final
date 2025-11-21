@@ -1,5 +1,7 @@
 import Image from 'next/image'
 
+import '@/src/app/styles/footer.css'
+
 export default function Footer(){
 
     return(
