@@ -2,6 +2,7 @@ import type { Metadata } from "next";
 import { JetBrains_Mono } from "next/font/google"; 
 import Header from "./ui/header";
 import Footer from "./ui/footer";
+import "@/app/globals.css";
 
 // Fonte monoespaçada
 const jetbrains = JetBrains_Mono({

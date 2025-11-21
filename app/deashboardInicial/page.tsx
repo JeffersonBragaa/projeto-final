@@ -7,7 +7,7 @@ export default function DashInicial() {
             <div className='card'>
 
                 <div className='card-apresentacao'>
-                    <h1>🎬 Sua Biblioteca de Filmes e Séries Pessoal!</h1>
+                    <h1>Sua Biblioteca de Filmes e Séries Pessoal!</h1>
 
                     <p>Transforme sua paixão por cinema em uma experiência organizada e divertida!</p>
 
@@ -15,11 +15,11 @@ export default function DashInicial() {
 
                     <div className='introducao'>
                         <div>
-                            <p>📝 Criar sua lista pessoal de filmes e séries assistidos</p>
-                            <p>🎯 Salvar produções que você quer ver no futuro</p>
-                            <p>🔍 Descobrir recomendações baseadas no seu gosto</p>
-                            <p>⭐ Avaliar e comentar suas experiências</p>
-                            <p>📊 Acompanhar suas estatísticas de visualização</p>
+                            <p>◾ Criar sua lista pessoal de filmes e séries assistidos</p>
+                            <p>◾ Salvar produções que você quer ver no futuro</p>
+                            <p>◾ Descobrir recomendações baseadas no seu gosto</p>
+                            <p>◾ Avaliar e comentar suas experiências</p>
+                            <p>◾ Acompanhar suas estatísticas de visualização</p>
 
                         </div>
                     </div>
@@ -31,8 +31,10 @@ export default function DashInicial() {
 
                     <h2 id='sub-title'>Vamos começar essa aventura cinematográfica?</h2>
                     <div className='login'>
-                        <p><strong>Já tem uma conta?</strong></p>
-                        <button>Login</button>
+                        <form action={'/login'}>
+                            <p><strong>Já tem uma conta?</strong></p>
+                            <button>Login</button>
+                        </form>
                     </div>
 
                     <div className='register'>

@@ -4,7 +4,7 @@ export default function Footer(){
 
     return(
         <footer>
-            <p>Feito com Carinho por <a href="">GitHub</a></p>
+            <p>Feito com ❤ por <a href="">GitHub</a></p>
         </footer>
     )
 }
