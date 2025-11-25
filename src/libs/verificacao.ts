@@ -34,16 +34,23 @@ export async function criaUserDB(dados: LoginCredencias) {
     redirect('/login');
 }
 
-export async function verificaLogin(dados: LoginCredencias): Promise<string | void> {
+export async function verificaLogin(dados: LoginCredencias): Promise<Boolean | void> {
     const usuariosAtuais = await Banco.retornaBanco('users.json');
     for (let i in usuariosAtuais) {
         if (dados.email === usuariosAtuais[i].email) {
             const senhaValida = await bcrypt.compare(dados.senha, usuariosAtuais[i].senha);
             if (senhaValida) {
-                return('Login bem-sucedido');
+                return true;
             } else {
-                return('Senha ou email inválido');
+                return false;
             }
         }
     }
 }
+
+const Verificacao = {
+    criaUserDB,
+    verificaLogin
+}
+
+export default Verificacao;

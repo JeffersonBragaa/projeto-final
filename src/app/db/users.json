@@ -7,5 +7,23 @@
     "filmesAssistidos": [],
     "filmesDesejo": [],
     "filmesSugestao": []
+  },
+  {
+    "id": "a3c020da-065b-4d12-b992-3865c41b10eb",
+    "nome": "fernando",
+    "email": "jekonth@gmail.com",
+    "senha": "$2b$10$hKHAbuQGCeAMBYeEB1rAi.Rm/DezVfESCBTMv28Y.fCBZudDJdbGu",
+    "filmesAssistidos": [],
+    "filmesDesejo": [],
+    "filmesSugestao": []
+  },
+  {
+    "id": "51663ec1-dc2b-49fd-b6a8-575aaa1c18a0",
+    "nome": "Jefferson 1 ",
+    "email": "jefferson.silva@gfinnovation.com.br",
+    "senha": "$2b$10$lQ9RUWSKx4Eixh1D7xXSduAEoqDmN/ZEbTvS8okUn7O0vHDpg3i3q",
+    "filmesAssistidos": [],
+    "filmesDesejo": [],
+    "filmesSugestao": []
   }
 ]

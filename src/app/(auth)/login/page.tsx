@@ -1,6 +1,6 @@
 import '@/src/app/styles/dashInicial.css';
 import '@/src/app/styles/login.css';
-import { verificaLogin } from '@/src/libs/verificacao';
+import Verificacao from '@/src/libs/verificacao';
 import { redirect } from 'next/navigation';
 export interface LoginCredencias {
     nome: string;
@@ -19,9 +19,15 @@ export default function Login() {
         }
         // Lógica de autenticação aqui
         
-        const retorno = await verificaLogin(user as LoginCredencias);
+        const retorno = await Verificacao.verificaLogin(user as LoginCredencias);
         console.log('Retorno do login:', retorno);
-        redirect('/dashbord');
+        if (retorno){
+            redirect('/dashboard');
+        }
+        else{
+            console.error('Falha no login: Credenciais inválidas');
+            redirect('/login');
+        }
     }
 
     return (

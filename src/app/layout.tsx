@@ -1,5 +1,5 @@
 import type { Metadata } from "next";
-import { JetBrains_Mono } from "next/font/google"; 
+import { JetBrains_Mono } from "next/font/google";
 import Header from "./ui/header";
 import Footer from './ui/footer';
 import '@/src/app/globals.css';
@@ -24,7 +24,9 @@ export default function RootLayout({
     <html lang="en" className={jetbrains.variable}>
       <body className={jetbrains.className}>
         <Header />
-        {children}
+        <main>
+          {children}
+        </main>
         <Footer />
       </body>
     </html>
