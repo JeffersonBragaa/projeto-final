@@ -15,7 +15,6 @@
 @media (prefers-color-scheme: dark) {
   :root {
     --background: #0a0a0a;
-    --foreground: #ededed;
     --font-mono: var(--font-mono);
   }
 }
@@ -30,8 +29,10 @@ button {
   padding: 0.9rem;
   background-color: blanchedalmond;
   border-radius: 0.5rem;
+  color: #0a0a0a;
+  border: black solid 1px;
   font-size: 1rem;
   font-weight: bold;
   cursor: pointer;
-  border: solid 0.1rem var(--foreground);
+
 }

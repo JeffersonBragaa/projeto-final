@@ -1,8 +1,11 @@
 [
   {
-    "id": "bba71180-6836-4f26-9a7a-e7693ba88065",
-    "nome": "Jefferson",
-    "email": "jefferson.silva@gfinnovation.com.br",
-    "senha": "$2b$10$5ZNW1h5uCC28jqsP8Rd04.0rsN6xtk0ONDyjvE95WhFrnpdNpYHhW"
+    "id": "a98246be-115e-4652-894e-6cf1381e4970",
+    "nome": "jef",
+    "email": "j@j.com",
+    "senha": "$2b$10$HCobe/BknXJxxbyggDJV0uoh8eCNlsqVmF6RMUt5.z/59DRlAX1bO",
+    "filmesAssistidos": [],
+    "filmesDesejo": [],
+    "filmesSugestao": []
   }
 ]

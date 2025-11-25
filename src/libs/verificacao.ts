@@ -7,12 +7,14 @@ export async function criaUserDB(dados: LoginCredencias) {
 
     const senha = dados.senha;
     const senhacrypto = await bcrypt.hash(senha, 10);
-
     const user = {
         id: crypto.randomUUID(),
         nome: dados.nome,
         email: dados.email,
-        senha: senhacrypto
+        senha: senhacrypto,
+        filmesAssistidos: [],
+        filmesDesejo: [],
+        filmesSugestao: []
     }
 
     console.log(`criando usuário: ${user.nome} - ${user.email}`);
