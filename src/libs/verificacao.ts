@@ -1,7 +1,9 @@
+
 import { LoginCredencias } from "../app/(auth)/login/page";
 import bcrypt from 'bcrypt';
 import Banco from '@/src/libs/banco';
 import { redirect } from "next/navigation";
+import { createSessionToken } from '@/src/libs/session';
 
 export async function criaUserDB(dados: LoginCredencias) {
 
@@ -40,12 +42,15 @@ export async function verificaLogin(dados: LoginCredencias): Promise<Boolean | v
         if (dados.email === usuariosAtuais[i].email) {
             const senhaValida = await bcrypt.compare(dados.senha, usuariosAtuais[i].senha);
             if (senhaValida) {
-                return true;
+                await createSessionToken(usuariosAtuais[i].id, usuariosAtuais[i].senha);
+                redirect('/dashboard');
             } else {
                 return false;
             }
         }
     }
+
+
 }
 
 const Verificacao = {

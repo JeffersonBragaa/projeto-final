@@ -18,14 +18,14 @@ async function openSessionToken(token: string){
     
 }
 
-export async function createSessionToken(userId: string, userEmail: string){
+export async function createSessionToken(userId: string, userSenha: string){
     const encodedKey = new TextEncoder().encode(process.env.TOKEN); 
     const expiresAt = Date.now() + 3600;
 
 
     //Cria  session. É feita uma "assinatura" do payload
     //Aqui também espeficifamos o algoritmo de criptografia como HS256
-    const session = await new SignJWT({userId, userEmail}).setProtectedHeader({
+    const session = await new SignJWT({userId, userSenha}).setProtectedHeader({
         alg: 'HS256'
     })
     .setExpirationTime('1h') //Define um tempo para expirar
