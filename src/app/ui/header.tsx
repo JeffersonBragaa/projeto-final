@@ -1,5 +1,6 @@
 import Image from "next/image";
 import bubinaLogo from '@/public/bubina.png';
+import Logout from "./logout";
 import '@/src/app/styles/header.css';
 
 export default function Header(){
@@ -19,6 +20,9 @@ export default function Header(){
                     height={60}
                 />
                 <h1>Repositório de filmes</h1>
+            </div>
+            <div className="logout">
+                <Logout/>
             </div>
         </header>
     )

@@ -1,38 +1,4 @@
-/* garante que nada estoure horizontalmente */
-html, body {
-    overflow-x: hidden;
-    width: 100%;
-    margin: 0;
-    padding: 0;
-}
 
-/* MAIN */
-main {
-    position: relative;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-
-    width: 100%;
-    min-height: 100vh;
-
-    overflow: hidden;
-    background-color: rgba(0, 0, 0, 0.267);
-}
-
-main::before {
-    content: "";
-    position: absolute;
-    inset: 0;
-
-    background-image: url('/main-img.jpg');
-    background-size: cover;
-    background-position: center;
-
-    filter: blur(8px);
-    transform: scale(1);
-    z-index: -1;
-}
 
 .card {
     display: flex;

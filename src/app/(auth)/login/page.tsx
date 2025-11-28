@@ -1,5 +1,6 @@
 import '@/src/app/styles/dashInicial.css';
 import '@/src/app/styles/login.css';
+import '@/src/app/globals.css';
 import Verificacao from '@/src/libs/verificacao';
 import { redirect } from 'next/navigation';
 export interface LoginCredencias {
@@ -9,37 +10,36 @@ export interface LoginCredencias {
 }
 
 export default function Login() {
-    
+
     const realizarLogin = async (formData: FormData) => {
-        'use server';   
-        const user: LoginCredencias={
+        'use server';
+        const user: LoginCredencias = {
             nome: formData.get('nome') as string,
             email: formData.get('email') as string,
-            senha: formData.get('senha') as string,            
+            senha: formData.get('senha') as string,
         }
         // Lógica de autenticação aqui
-        
+
         const retorno = await Verificacao.verificaLogin(user as LoginCredencias);
         console.log('Retorno do login:', retorno);
-        if (retorno){
+        if (retorno) {
             redirect('/dashboard');
         }
-        else{
+        else {
             console.error('Falha no login: Credenciais inválidas');
             redirect('/login');
         }
     }
 
     return (
-        <main>
-            <div className="login-user">
-                <form action={realizarLogin}>
-                    <h1>Login</h1>
-                    <input type="email" name='email' placeholder="E-mail" />
-                    <input type="password" name='senha' placeholder="Senha" />
-                    <button type="submit">Entrar</button>
-                </form>
-            </div>
-        </main>
+
+        <div className="login-user">
+            <form action={realizarLogin}>
+                <h1>Login</h1>
+                <input type="email" name='email' placeholder="E-mail" />
+                <input type="password" name='senha' placeholder="Senha" />
+                <button type="submit">Entrar</button>
+            </form>
+        </div>
     )
 }
