@@ -65,3 +65,10 @@ export async function deleteSessionCookie(){
     cookieStore.delete('session');
 
 }
+
+export function getUserid(){
+    const cockie = cookies().get('session');
+    if(cockie){
+        return cockie?.value || null; 
+    }
+}
