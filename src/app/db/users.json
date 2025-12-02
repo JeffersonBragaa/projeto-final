@@ -1,43 +1,27 @@
 [
   {
-    "id": "2e351a48-f14f-4628-a14d-bb92797951da",
-    "nome": "JEFFERSON VINICIUS BRAGA DA SILVA",
-    "email": "jekonth@gmail.com",
-    "senha": "$2b$10$znZu9XZ3RWWGy3LSrsmvhOR7jlnaytjo9ZNPb9vodT4EGtdTrr/w6",
+    "id": "a1d0d103-2469-4b0f-b484-3d842458a88b",
+    "nome": "Jefferson",
+    "email": "jefferson.silva@gfinnovation.com.br",
+    "senha": "$2b$10$XHhObTEvoEHSyY9qh2teNu/qPNnSJSxHhvAhsqg/ATq0teqT.P.kS",
     "assistidos": [
       {
         "id": 24428,
         "nome": "Os Vingadores: The Avengers",
         "img": "https://image.tmdb.org/t/p/w500/j9hwS307Zlc5mQTbAnwV75vXG0H.jpg",
         "descricao": "Loki, o irmão de Thor, ganha acesso ao poder ilimitado do cubo cósmico ao roubá-lo de dentro das instalações da S.H.I.E.L.D. Nick Fury, o diretor desta agência internacional que mantém a paz, logo reúne os únicos super-heróis que serão capazes de defender a Terra de ameaças sem precedentes. Homem de Ferro, Capitão América, Hulk, Thor, Viúva Negra e Gavião Arqueiro formam o time dos sonhos de Fury, mas eles precisam aprender a colocar os egos de lado e agir como um grupo em prol da humanidade.",
-        "avaliacao": 7.864
-      },
-      {
-        "id": 96677,
-        "nome": "Lupin",
-        "img": "https://image.tmdb.org/t/p/w500/sOUWRai0215iUSMackrZx3Y1j05.jpg",
-        "descricao": "Inspirado pelas aventuras de Arsène Lupin, o ladrão gentil Assane Diop quer se vingar de uma família rica por uma injustiça cometida contra o pai dele.",
-        "avaliacao": 7.725
+        "avaliacao": 7.865
       }
     ],
-    "desejado": [],
-    "sugestao": []
-  },
-  {
-    "id": "db1878b4-4264-4a8c-8764-37e647e63998",
-    "nome": "pikacu",
-    "email": "madu123455@gmail.com",
-    "senha": "$2b$10$JM88Ff28ZnsOMSv3BA8zZOdluQBY/rYv5.gkdBmDnkeMkpKmdy04O",
-    "assistidos": [
+    "desejados": [
       {
-        "id": 24428,
-        "nome": "Os Vingadores: The Avengers",
-        "img": "https://image.tmdb.org/t/p/w500/j9hwS307Zlc5mQTbAnwV75vXG0H.jpg",
-        "descricao": "Loki, o irmão de Thor, ganha acesso ao poder ilimitado do cubo cósmico ao roubá-lo de dentro das instalações da S.H.I.E.L.D. Nick Fury, o diretor desta agência internacional que mantém a paz, logo reúne os únicos super-heróis que serão capazes de defender a Terra de ameaças sem precedentes. Homem de Ferro, Capitão América, Hulk, Thor, Viúva Negra e Gavião Arqueiro formam o time dos sonhos de Fury, mas eles precisam aprender a colocar os egos de lado e agir como um grupo em prol da humanidade.",
-        "avaliacao": 7.864
+        "id": 44217,
+        "nome": "Vikings",
+        "img": "https://image.tmdb.org/t/p/w500/bQLrHIRNEkE3PdIWQrZHynQZazu.jpg",
+        "descricao": "Ragnar Lothbrok, um jovem que se considera descendente de Odin, é um guerreiro, fazendeiro e chefe de família. Visionário e sonhando viver diversas aventuras, ele acredita que as riquezas sonhadas por seu povo encontram-se além do mar Báltico. Mas para conseguir conquistá-las ele precisa convencer Earl Haraldson, o líder de seu povo, a permitir que ele e seus guerreiros viagem em direção à Inglaterra.",
+        "avaliacao": 8.095
       }
     ],
-    "desejado": [],
-    "sugestao": []
+    "sugestoes": []
   }
 ]
