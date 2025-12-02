@@ -14,9 +14,9 @@ export async function criaUserDB(dados: LoginCredencias) {
         nome: dados.nome,
         email: dados.email,
         senha: senhacrypto,
-        filmesAssistidos: [],
-        filmesDesejo: [],
-        filmesSugestao: []
+        assistidos: [],
+        desejado: [],
+        sugestao: []
     }
 
     console.log(`criando usuário: ${user.nome} - ${user.email}`);

@@ -1,29 +1,43 @@
 [
   {
-    "id": "a98246be-115e-4652-894e-6cf1381e4970",
-    "nome": "jef",
-    "email": "j@j.com",
-    "senha": "$2b$10$HCobe/BknXJxxbyggDJV0uoh8eCNlsqVmF6RMUt5.z/59DRlAX1bO",
-    "filmesAssistidos": [],
-    "filmesDesejo": [],
-    "filmesSugestao": []
-  },
-  {
-    "id": "a3c020da-065b-4d12-b992-3865c41b10eb",
-    "nome": "fernando",
+    "id": "2e351a48-f14f-4628-a14d-bb92797951da",
+    "nome": "JEFFERSON VINICIUS BRAGA DA SILVA",
     "email": "jekonth@gmail.com",
-    "senha": "$2b$10$hKHAbuQGCeAMBYeEB1rAi.Rm/DezVfESCBTMv28Y.fCBZudDJdbGu",
-    "filmesAssistidos": [],
-    "filmesDesejo": [],
-    "filmesSugestao": []
+    "senha": "$2b$10$znZu9XZ3RWWGy3LSrsmvhOR7jlnaytjo9ZNPb9vodT4EGtdTrr/w6",
+    "assistidos": [
+      {
+        "id": 24428,
+        "nome": "Os Vingadores: The Avengers",
+        "img": "https://image.tmdb.org/t/p/w500/j9hwS307Zlc5mQTbAnwV75vXG0H.jpg",
+        "descricao": "Loki, o irmão de Thor, ganha acesso ao poder ilimitado do cubo cósmico ao roubá-lo de dentro das instalações da S.H.I.E.L.D. Nick Fury, o diretor desta agência internacional que mantém a paz, logo reúne os únicos super-heróis que serão capazes de defender a Terra de ameaças sem precedentes. Homem de Ferro, Capitão América, Hulk, Thor, Viúva Negra e Gavião Arqueiro formam o time dos sonhos de Fury, mas eles precisam aprender a colocar os egos de lado e agir como um grupo em prol da humanidade.",
+        "avaliacao": 7.864
+      },
+      {
+        "id": 96677,
+        "nome": "Lupin",
+        "img": "https://image.tmdb.org/t/p/w500/sOUWRai0215iUSMackrZx3Y1j05.jpg",
+        "descricao": "Inspirado pelas aventuras de Arsène Lupin, o ladrão gentil Assane Diop quer se vingar de uma família rica por uma injustiça cometida contra o pai dele.",
+        "avaliacao": 7.725
+      }
+    ],
+    "desejado": [],
+    "sugestao": []
   },
   {
-    "id": "51663ec1-dc2b-49fd-b6a8-575aaa1c18a0",
-    "nome": "Jefferson 1 ",
-    "email": "jefferson.silva@gfinnovation.com.br",
-    "senha": "$2b$10$lQ9RUWSKx4Eixh1D7xXSduAEoqDmN/ZEbTvS8okUn7O0vHDpg3i3q",
-    "filmesAssistidos": [],
-    "filmesDesejo": [],
-    "filmesSugestao": []
+    "id": "db1878b4-4264-4a8c-8764-37e647e63998",
+    "nome": "pikacu",
+    "email": "madu123455@gmail.com",
+    "senha": "$2b$10$JM88Ff28ZnsOMSv3BA8zZOdluQBY/rYv5.gkdBmDnkeMkpKmdy04O",
+    "assistidos": [
+      {
+        "id": 24428,
+        "nome": "Os Vingadores: The Avengers",
+        "img": "https://image.tmdb.org/t/p/w500/j9hwS307Zlc5mQTbAnwV75vXG0H.jpg",
+        "descricao": "Loki, o irmão de Thor, ganha acesso ao poder ilimitado do cubo cósmico ao roubá-lo de dentro das instalações da S.H.I.E.L.D. Nick Fury, o diretor desta agência internacional que mantém a paz, logo reúne os únicos super-heróis que serão capazes de defender a Terra de ameaças sem precedentes. Homem de Ferro, Capitão América, Hulk, Thor, Viúva Negra e Gavião Arqueiro formam o time dos sonhos de Fury, mas eles precisam aprender a colocar os egos de lado e agir como um grupo em prol da humanidade.",
+        "avaliacao": 7.864
+      }
+    ],
+    "desejado": [],
+    "sugestao": []
   }
 ]
