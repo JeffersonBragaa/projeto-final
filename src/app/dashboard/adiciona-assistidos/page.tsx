@@ -49,7 +49,7 @@ export default function Assistidos() {
         dbusers[usuarioIndex] = usuario;
         await Banco.escreveBanco(db, dbusers)
         
-        redirect('/dashboard')
+        redirect('/dashboard/')
 
     };
 

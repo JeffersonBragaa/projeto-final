@@ -1,27 +1,102 @@
 [
   {
-    "id": "a1d0d103-2469-4b0f-b484-3d842458a88b",
+    "id": "4e90c6ba-026d-4797-b3de-18ad2a178b1f",
     "nome": "Jefferson",
     "email": "jefferson.silva@gfinnovation.com.br",
-    "senha": "$2b$10$XHhObTEvoEHSyY9qh2teNu/qPNnSJSxHhvAhsqg/ATq0teqT.P.kS",
+    "senha": "$2b$10$zfwPfI9cIUfH5AdNWLiZk.TqlPa7WGnUpTYVC1tvp3U8BrIrBeFjq",
     "assistidos": [
       {
         "id": 24428,
         "nome": "Os Vingadores: The Avengers",
         "img": "https://image.tmdb.org/t/p/w500/j9hwS307Zlc5mQTbAnwV75vXG0H.jpg",
         "descricao": "Loki, o irmão de Thor, ganha acesso ao poder ilimitado do cubo cósmico ao roubá-lo de dentro das instalações da S.H.I.E.L.D. Nick Fury, o diretor desta agência internacional que mantém a paz, logo reúne os únicos super-heróis que serão capazes de defender a Terra de ameaças sem precedentes. Homem de Ferro, Capitão América, Hulk, Thor, Viúva Negra e Gavião Arqueiro formam o time dos sonhos de Fury, mas eles precisam aprender a colocar os egos de lado e agir como um grupo em prol da humanidade.",
-        "avaliacao": 7.865
+        "avaliacao": 7.866
+      },
+      {
+        "id": 1431,
+        "nome": "CSI: Investigação Criminal",
+        "img": "https://image.tmdb.org/t/p/w500/1OOXYxrLLupCiUP78fDVGwaq0As.jpg",
+        "descricao": "Um dedicado grupo de investigadores forenses em um laboratório criminal de Las Vegas se empenha para resolver crimes quase sempre macabros. Trabalhando no turno da noite está o supervisor D.B. Russell, um verdadeiro Sherlock Holmes que devora livros de mistério e assassinatos. Os integrantes da equipe de Russell incluem Catherine Willows, Nick Stokes, Sara Sidle, Greg Sanders e Morgan Brody. O time trabalha de perto com o capitão Jim Brass, um detetive experiente. Entre os chefes anteriores do grupo estão Gus Grissom e o Dr. Raymond Langston.",
+        "avaliacao": 7.6
+      },
+      {
+        "id": 157336,
+        "nome": "Interestelar",
+        "img": "https://image.tmdb.org/t/p/w500/6ricSDD83BClJsFdGB6x7cM0MFQ.jpg",
+        "descricao": "As reservas naturais da Terra estão chegando ao fim e um grupo de astronautas recebe a missão de verificar possíveis planetas para receberem a população mundial, possibilitando a continuação da espécie. Cooper é chamado para liderar o grupo e aceita a missão sabendo que pode nunca mais ver os filhos. Ao lado de Brand, Jenkins e Doyle, ele seguirá em busca de um novo lar.",
+        "avaliacao": 8.463
       }
     ],
     "desejados": [
       {
-        "id": 44217,
-        "nome": "Vikings",
-        "img": "https://image.tmdb.org/t/p/w500/bQLrHIRNEkE3PdIWQrZHynQZazu.jpg",
-        "descricao": "Ragnar Lothbrok, um jovem que se considera descendente de Odin, é um guerreiro, fazendeiro e chefe de família. Visionário e sonhando viver diversas aventuras, ele acredita que as riquezas sonhadas por seu povo encontram-se além do mar Báltico. Mas para conseguir conquistá-las ele precisa convencer Earl Haraldson, o líder de seu povo, a permitir que ele e seus guerreiros viagem em direção à Inglaterra.",
-        "avaliacao": 8.095
+        "id": 96677,
+        "nome": "Lupin",
+        "img": "https://image.tmdb.org/t/p/w500/sOUWRai0215iUSMackrZx3Y1j05.jpg",
+        "descricao": "Inspirado pelas aventuras de Arsène Lupin, o ladrão gentil Assane Diop quer se vingar de uma família rica por uma injustiça cometida contra o pai dele.",
+        "avaliacao": 7.725
+      },
+      {
+        "id": 71446,
+        "nome": "La casa de papel",
+        "img": "https://image.tmdb.org/t/p/w500/yVUAfbrP5HDJugXraB7KQS0yz6Z.jpg",
+        "descricao": "Um homem misterioso que atende pelo nome de El Profesor, está planejando o maior assalto do século. A fim de realizar o ambicioso plano ele recruta uma gangue de oito pessoas com certas habilidades que não tem nada a perder. O objetivo é infiltrar na Casa da Moeda, de modo que eles possam imprimir 2,4 bilhões de euros. Para fazer isso eles precisam de onze dias de reclusão, durante o qual eles vão ter que lidar com sessenta e sete reféns e as forças da Polícia de Elite, com cenas de muita ação e planos brilhantes de El Profesor.",
+        "avaliacao": 8.234
+      },
+      {
+        "id": 1729,
+        "nome": "O Reino Proibido",
+        "img": "https://image.tmdb.org/t/p/w500/2rEzOeG6he952m7tyFe7tOyfoko.jpg",
+        "descricao": "Jason, um adolescente americano, é um grande fã do cinema de Hong Kong e de velhos filmes de kung-fu. Ao visitar uma loja de penhores em Chinatown, ele descobre a arma de um sábio chinês antigo e guerreiro, o Rei Macaco. A relíquia mágica transporta Jason de volta no tempo e ele se junta a um grupo de lendários artistas marciais em uma missão para libertar um homem preso.",
+        "avaliacao": 6.631
       }
     ],
-    "sugestoes": []
+    "sugestoes": {
+      "filmes": [
+        {
+          "id": 329865,
+          "nome": "A Chegada",
+          "img": "https://image.tmdb.org/t/p/w500/3rDwbFpn6z5HJUgDjpfhEePx8VI.jpg",
+          "descricao": "Quando seres interplanetários deixam marcas na Terra, a Dra. Louise Banks, uma linguista especialista no assunto, é procurada por militares para traduzir os sinais e desvendar se os alienígenas representam uma ameaça. No entanto, a resposta para todas as perguntas e mistérios coloca em risco  a vida de Louise e a de toda a humanidade.",
+          "avaliacao": 7.623
+        },
+        {
+          "id": 149871,
+          "nome": "O Conto da Princesa Kaguya",
+          "img": "https://image.tmdb.org/t/p/w500/cerV9QJhSdDlnUigrsKZQfOeTpA.jpg",
+          "descricao": "Kaguya era um minúsculo bebê quando foi encontrada dentro de um tronco de bambu brilhante. Passado o tempo, ela se transforma em uma bela jovem que passa a ser cobiçada por cinco nobres, dentre eles, o próprio Imperador. Mas nenhum deles é o que ela realmente quer. A moça envia seus pretendentes em tarefas aparentemente impossíveis para tentar evitar o casamento com um estranho que não ama. Mas Kaguya terá que enfrentar seu destino e punição por suas escolhas.",
+          "avaliacao": 8.087
+        },
+        {
+          "id": 210577,
+          "nome": "Garota Exemplar",
+          "img": "https://image.tmdb.org/t/p/w500/54nI3vSKlPp42WhJmKVRdmMbkzl.jpg",
+          "descricao": "Amy Dunne desaparece no dia do seu aniversário de casamento, deixando o marido Nick em apuros. Ele começa a agir descontroladamente, abusando das mentiras, e se torna o suspeito número um da polícia. Com o apoio da sua irmã gêmea, Margo, Nick tenta provar a sua inocência e, ao mesmo tempo, procura descobrir o que aconteceu com Amy.",
+          "avaliacao": 7.9
+        }
+      ],
+      "series": [
+        {
+          "id": 70523,
+          "nome": "Dark",
+          "img": "https://image.tmdb.org/t/p/w500/7yQyDCqSazrYTnmxdQLAZ8YDH87.jpg",
+          "descricao": "Quatro famílias iniciam uma desesperada busca por respostas quando uma criança desaparece e um complexo mistério envolvendo três gerações começa a se revelar.",
+          "avaliacao": 8.419
+        },
+        {
+          "id": 54344,
+          "nome": "The Leftovers",
+          "img": "https://image.tmdb.org/t/p/w500/ri8xr223xBb2TeHX3GKypvQPV2B.jpg",
+          "descricao": "Após dois por cento da população do mundo desaparecer, os que sobraram se esforçam para compreender.",
+          "avaliacao": 7.6
+        },
+        {
+          "id": 67744,
+          "nome": "MINDHUNTER",
+          "img": "https://image.tmdb.org/t/p/w500/fbKE87mojpIETWepSbD5Qt741fp.jpg",
+          "descricao": "Um agente da Unidade de Crimes em Série do FBI desenvolve avançadas técnicas de psicologia criminal ao perseguir notórios assassinos e estupradores.",
+          "avaliacao": 8.101
+        }
+      ]
+    }
   }
 ]
