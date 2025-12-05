@@ -1,0 +1,27 @@
+section{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.principal{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 95%;
+    border: solid 1px black;
+    gap: 3rem;
+}
+
+.colecao{
+    display: flex;
+    width: 90%;
+    border: solid 1px black;
+    padding: 1rem; 
+}
+
+.filme{
+    display: flex;
+
+    /* deve estar retornando o css com class name de outro lugar do codigo, alem disso a class filme é um container de todos filmes e nao cada um solo, pois o retorno que eu mesmo disse que é o filme solo.  */
+}
