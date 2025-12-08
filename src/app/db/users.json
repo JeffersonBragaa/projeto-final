@@ -53,6 +53,20 @@
         "img": "https://image.tmdb.org/t/p/w500/iWlSZXOgzE3VkPsIfXj8eiIQlMl.jpg",
         "descricao": "No segundo filme, o pinguim surfista Cadu Maverik está disposto a iniciar uma longa jornada em busca de uma praia que tem fama de ter as maiores ondas de todo o mundo. Ele vai convencer o grupo de surfistas The Hang 5 a acompanhá-lo nessa jornada insana",
         "avaliacao": 6.037
+      },
+      {
+        "id": 487491,
+        "nome": "Fala Sério, Mãe!",
+        "img": "https://image.tmdb.org/t/p/w500/p4YiseA6zPrXQMAJ7dj9GxCTHmo.jpg",
+        "descricao": "Ângela, mãe da adolescente Malu, está tendo a experiência de guiar sua filha durante uma das fases mais complicadas da vida. Ela vive uma montanha-russa de emoções, com medos, frustrações e um caminhão de queixas para descarregar. Por outro lado, Malu também tem suas insatisfações. Teimosa, sofre com os cuidados excessivos e com o jeito conservador da mãe.",
+        "avaliacao": 7.274
+      },
+      {
+        "id": 49026,
+        "nome": "Batman: O Cavaleiro das Trevas Ressurge",
+        "img": "https://image.tmdb.org/t/p/w500/j4z01cnbTCaVX69bik1612pSuH6.jpg",
+        "descricao": "Após ser culpado pela morte de Harvey Dent e passar de herói a vilão, Batman desaparece. As coisas mudam com a chegada de uma ladra misteriosa, a Mulher-Gato, e Bane, um terrorista mascarado, que fazem Batman abandonar seu exílio forçado.",
+        "avaliacao": 7.79
       }
     ],
     "desejados": [
@@ -88,18 +102,18 @@
           "avaliacao": 4.11
         },
         {
-          "id": 329865,
-          "nome": "A Chegada",
-          "img": "https://image.tmdb.org/t/p/w500/3rDwbFpn6z5HJUgDjpfhEePx8VI.jpg",
-          "descricao": "Quando seres interplanetários deixam marcas na Terra, a Dra. Louise Banks, uma linguista especialista no assunto, é procurada por militares para traduzir os sinais e desvendar se os alienígenas representam uma ameaça. No entanto, a resposta para todas as perguntas e mistérios coloca em risco  a vida de Louise e a de toda a humanidade.",
-          "avaliacao": 7.623
+          "id": 149871,
+          "nome": "O Conto da Princesa Kaguya",
+          "img": "https://image.tmdb.org/t/p/w500/cerV9QJhSdDlnUigrsKZQfOeTpA.jpg",
+          "descricao": "Kaguya era um minúsculo bebê quando foi encontrada dentro de um tronco de bambu brilhante. Passado o tempo, ela se transforma em uma bela jovem que passa a ser cobiçada por cinco nobres, dentre eles, o próprio Imperador. Mas nenhum deles é o que ela realmente quer. A moça envia seus pretendentes em tarefas aparentemente impossíveis para tentar evitar o casamento com um estranho que não ama. Mas Kaguya terá que enfrentar seu destino e punição por suas escolhas.",
+          "avaliacao": 8.1
         },
         {
-          "id": 210577,
-          "nome": "Garota Exemplar",
-          "img": "https://image.tmdb.org/t/p/w500/54nI3vSKlPp42WhJmKVRdmMbkzl.jpg",
-          "descricao": "Amy Dunne desaparece no dia do seu aniversário de casamento, deixando o marido Nick em apuros. Ele começa a agir descontroladamente, abusando das mentiras, e se torna o suspeito número um da polícia. Com o apoio da sua irmã gêmea, Margo, Nick tenta provar a sua inocência e, ao mesmo tempo, procura descobrir o que aconteceu com Amy.",
-          "avaliacao": 7.889
+          "id": 1509418,
+          "nome": "Os Suspeitos",
+          "img": "https://image.tmdb.org/t/p/w500null",
+          "descricao": "Três amigos tentam sobreviver juntos em um mundo pós apocalíptico dominado por seres metamorfos.",
+          "avaliacao": 0
         }
       ],
       "series": [
@@ -111,11 +125,11 @@
           "avaliacao": 8.419
         },
         {
-          "id": 67744,
-          "nome": "MINDHUNTER",
-          "img": "https://image.tmdb.org/t/p/w500/fbKE87mojpIETWepSbD5Qt741fp.jpg",
-          "descricao": "Um agente da Unidade de Crimes em Série do FBI desenvolve avançadas técnicas de psicologia criminal ao perseguir notórios assassinos e estupradores.",
-          "avaliacao": 8.099
+          "id": 46648,
+          "nome": "True Detective",
+          "img": "https://image.tmdb.org/t/p/w500/1fxr55V72a2gtqyn2b8pf6FslOf.jpg",
+          "descricao": "Mostrando diferentes perspectivas tanto no passado como no presente, a narrativa se foca na investigação dos crimes supostamente cometidos por um serial killer no ano de 1995 feita pelos detetives Rust Cohle e Martin Hart. Nos dias atuais, o caso é aberto novamente e ambos são questionados pelos atuais detetives, já que a polícia tenta novamente prender o mesmo assassino. A série mostrará ao público o que acontece atualmente, ao mesmo tempo em que revela flashbacks da investigação nos anos 90.",
+          "avaliacao": 8.283
         },
         {
           "id": 54344,

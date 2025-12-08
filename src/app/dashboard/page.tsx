@@ -70,7 +70,7 @@ export default async function Dashboard() {
 
                 </div>
                 <div className="filme-titulo">
-
+                    <h2>Sujestões Filmes IA</h2>
                 </div>
                 <div className="colecao">
 
@@ -79,14 +79,15 @@ export default async function Dashboard() {
                 </div>
 
                 <div className="serie-titulo">
-
+                    <h2>Sujestões Serie IA</h2>
                 </div>
                 <div className="colecao">
 
                     {seriesIA.length > 0 ? seriesIA : <p>Nenhuma sugestão disponível.</p>}
 
                 </div>
-                <Link href={'/dashboard/Analise-IA'} className="adiciona-bnt">Consultar a Inteligencia artificial</Link>
+                <p>Clique abaixo para gerar sugestões da IA através de uma análise do seu perfil!</p>
+                <Link href={'/dashboard/Analise-IA'} className="adiciona-bnt">Gerar Sugestões</Link>
             </div>
         </section>
 
