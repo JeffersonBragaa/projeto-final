@@ -40,9 +40,9 @@ export default async function Dashboard() {
                     <h2>Assistidos</h2>
                 </div>
                 <div className="colecao">
-                    <div className="filme">
-                        {filmes_assistidos.length > 0 ? filmes_assistidos : <p>Nenhum filme assistido ainda.</p>}
-                    </div>
+
+                    {filmes_assistidos.length > 0 ? filmes_assistidos : <p>Nenhum filme assistido ainda.</p>}
+
                 </div>
             </div>
 
@@ -58,9 +58,9 @@ export default async function Dashboard() {
                 </div>
 
                 <div className="colecao">
-                    <div className="filme">
-                        {filmes_desejados.length > 0 ? filmes_desejados : <p>Nenhum filme desejado ainda.</p>}
-                    </div>
+
+                    {filmes_desejados.length > 0 ? filmes_desejados : <p>Nenhum filme desejado ainda.</p>}
+
                 </div>
             </div>
 
@@ -73,18 +73,18 @@ export default async function Dashboard() {
 
                 </div>
                 <div className="colecao">
-                    <div className="filme">
-                        {filmesIA.length > 0 ? filmesIA : <p>Nenhuma sugestão disponível.</p>}
-                    </div>
+
+                    {filmesIA.length > 0 ? filmesIA : <p>Nenhuma sugestão disponível.</p>}
+
                 </div>
 
                 <div className="serie-titulo">
 
                 </div>
                 <div className="colecao">
-                    <div className="filme">
-                        {seriesIA.length > 0 ? seriesIA : <p>Nenhuma sugestão disponível.</p>}
-                    </div>
+
+                    {seriesIA.length > 0 ? seriesIA : <p>Nenhuma sugestão disponível.</p>}
+
                 </div>
                 <Link href={'/dashboard/Analise-IA'} className="adiciona-bnt">Consultar a Inteligencia artificial</Link>
             </div>

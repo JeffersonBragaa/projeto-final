@@ -25,6 +25,34 @@
         "img": "https://image.tmdb.org/t/p/w500/6ricSDD83BClJsFdGB6x7cM0MFQ.jpg",
         "descricao": "As reservas naturais da Terra estão chegando ao fim e um grupo de astronautas recebe a missão de verificar possíveis planetas para receberem a população mundial, possibilitando a continuação da espécie. Cooper é chamado para liderar o grupo e aceita a missão sabendo que pode nunca mais ver os filhos. Ao lado de Brand, Jenkins e Doyle, ele seguirá em busca de um novo lar.",
         "avaliacao": 8.463
+      },
+      {
+        "id": 299536,
+        "nome": "Vingadores: Guerra Infinita",
+        "img": "https://image.tmdb.org/t/p/w500/A4kvp7vY1BDLrrQIagRCffLKj1t.jpg",
+        "descricao": "Homem de Ferro, Thor, Hulk e os Vingadores se unem para combater seu inimigo mais poderoso, o maligno Thanos. Em uma missão para coletar todas as seis pedras infinitas, Thanos planeja usá-las para infligir sua vontade maléfica sobre a realidade.",
+        "avaliacao": 8.235
+      },
+      {
+        "id": 299534,
+        "nome": "Vingadores: Ultimato",
+        "img": "https://image.tmdb.org/t/p/w500/9fRX8UKlIW7Lb9GqNsJVakWWFCi.jpg",
+        "descricao": "Após os eventos devastadores de \"Vingadores: Guerra Infinita\", o universo está em ruínas devido aos esforços do Titã Louco, Thanos. Com a ajuda de aliados remanescentes, os Vingadores devem se reunir mais uma vez a fim de desfazer as ações de Thanos e restaurar a ordem no universo de uma vez por todas, não importando as consequências.",
+        "avaliacao": 8.237
+      },
+      {
+        "id": 9408,
+        "nome": "Tá Dando Onda",
+        "img": "https://image.tmdb.org/t/p/w500/edR3BjwAwUGHtOQMXJTWRfMYBvt.jpg",
+        "descricao": "Cadu Maverick (Shia LaBeouf) é um jovem pinguim, que tem o lendário surfista Big Z como ídolo. Um dia ele decide deixar sua família e sua cidade, Shiverpool, na Antártida, para participar do Big Z Memorial Surf Off, um torneio de surf realizado na ilha Pen-Gu. Cadu acredita que caso vença o torneio ganhará respeito e admiração, seu grande sonho. Mas lá ele conhece um veterano surfista chamado Grego (Jeff Bridges), com quem aprende que o campeão nem sempre é aquele que chega em 1º lugar nas competições.",
+        "avaliacao": 6.477
+      },
+      {
+        "id": 411840,
+        "nome": "Tá Dando Onda 2",
+        "img": "https://image.tmdb.org/t/p/w500/iWlSZXOgzE3VkPsIfXj8eiIQlMl.jpg",
+        "descricao": "No segundo filme, o pinguim surfista Cadu Maverik está disposto a iniciar uma longa jornada em busca de uma praia que tem fama de ter as maiores ondas de todo o mundo. Ele vai convencer o grupo de surfistas The Hang 5 a acompanhá-lo nessa jornada insana",
+        "avaliacao": 6.037
       }
     ],
     "desejados": [
@@ -53,6 +81,13 @@
     "sugestoes": {
       "filmes": [
         {
+          "id": 15426,
+          "nome": "Aniquilação",
+          "img": "https://image.tmdb.org/t/p/w500/oc0LUTfhDnYIVZRF5AlDZF4tbQE.jpg",
+          "descricao": "O simples cotidiano de uma cidade é ameaçado quando uma criatura renasce do fundo da terra e inicia um terrível massacre na região acabando com a vida de de dezenas de pessoas. Agora cabe a uma xerife que busca se redimir de um erro cometido no passado e um grupo de pessoas que visitam a cidade procurar alguma forma de parar essa fera que tem apenas um objetivo: a completa destruição!",
+          "avaliacao": 4.11
+        },
+        {
           "id": 329865,
           "nome": "A Chegada",
           "img": "https://image.tmdb.org/t/p/w500/3rDwbFpn6z5HJUgDjpfhEePx8VI.jpg",
@@ -60,18 +95,11 @@
           "avaliacao": 7.623
         },
         {
-          "id": 149871,
-          "nome": "O Conto da Princesa Kaguya",
-          "img": "https://image.tmdb.org/t/p/w500/cerV9QJhSdDlnUigrsKZQfOeTpA.jpg",
-          "descricao": "Kaguya era um minúsculo bebê quando foi encontrada dentro de um tronco de bambu brilhante. Passado o tempo, ela se transforma em uma bela jovem que passa a ser cobiçada por cinco nobres, dentre eles, o próprio Imperador. Mas nenhum deles é o que ela realmente quer. A moça envia seus pretendentes em tarefas aparentemente impossíveis para tentar evitar o casamento com um estranho que não ama. Mas Kaguya terá que enfrentar seu destino e punição por suas escolhas.",
-          "avaliacao": 8.087
-        },
-        {
           "id": 210577,
           "nome": "Garota Exemplar",
           "img": "https://image.tmdb.org/t/p/w500/54nI3vSKlPp42WhJmKVRdmMbkzl.jpg",
           "descricao": "Amy Dunne desaparece no dia do seu aniversário de casamento, deixando o marido Nick em apuros. Ele começa a agir descontroladamente, abusando das mentiras, e se torna o suspeito número um da polícia. Com o apoio da sua irmã gêmea, Margo, Nick tenta provar a sua inocência e, ao mesmo tempo, procura descobrir o que aconteceu com Amy.",
-          "avaliacao": 7.9
+          "avaliacao": 7.889
         }
       ],
       "series": [
@@ -83,18 +111,18 @@
           "avaliacao": 8.419
         },
         {
+          "id": 67744,
+          "nome": "MINDHUNTER",
+          "img": "https://image.tmdb.org/t/p/w500/fbKE87mojpIETWepSbD5Qt741fp.jpg",
+          "descricao": "Um agente da Unidade de Crimes em Série do FBI desenvolve avançadas técnicas de psicologia criminal ao perseguir notórios assassinos e estupradores.",
+          "avaliacao": 8.099
+        },
+        {
           "id": 54344,
           "nome": "The Leftovers",
           "img": "https://image.tmdb.org/t/p/w500/ri8xr223xBb2TeHX3GKypvQPV2B.jpg",
           "descricao": "Após dois por cento da população do mundo desaparecer, os que sobraram se esforçam para compreender.",
           "avaliacao": 7.6
-        },
-        {
-          "id": 67744,
-          "nome": "MINDHUNTER",
-          "img": "https://image.tmdb.org/t/p/w500/fbKE87mojpIETWepSbD5Qt741fp.jpg",
-          "descricao": "Um agente da Unidade de Crimes em Série do FBI desenvolve avançadas técnicas de psicologia criminal ao perseguir notórios assassinos e estupradores.",
-          "avaliacao": 8.101
         }
       ]
     }

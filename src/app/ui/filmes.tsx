@@ -10,7 +10,7 @@ export default function Filme(props: FilmeProps) {
 
     return (
         <div className="filmes-assistidos-cards">
-            <h2>{props.nome}</h2>
+            <h3>{props.nome}</h3>
             <Image src={props.img} alt={props.nome} width={200} height={300} />
             <p>{props.descricao}</p>
         </div>
