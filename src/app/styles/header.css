@@ -12,9 +12,12 @@ header {
 /* Linha central do header */
 .header-page {
     display: flex;
+    flex-direction: column;
+    flex: 1;
     gap: 1rem;
     align-items: center;
-    justify-content: center; 
+    justify-content: space-between;
+    flex: 1;
     width: 100%;
 
     h1{
@@ -50,4 +53,9 @@ nav ul li a:hover {
 
 h1 {
     color: white;
+}
+
+.titulo-pag{
+    display: flex;
+    gap: 1rem;
 }

@@ -23,9 +23,9 @@ section{
 
 .colecao{
     display: flex;
-    flex-wrap: wrap;   /* permite quebrar linha */
-    justify-content: center; /* centraliza horizontal */
-    gap: 2rem;  /* espaço entre os cards (opcional) */
+    flex-wrap:wrap;   /* permite quebrar linha */
+    justify-content:center; /* centraliza horizontal */
+    gap: 1rem;  /* espaço entre os cards (opcional) */
     width: 100%;
     padding: 1rem; 
     margin-bottom: 1rem;
@@ -82,7 +82,54 @@ section{
     border-radius: 0.3rem;
     padding: 1rem;
     margin-top: 2rem;
+    transition: 1s;
+}
+.adicionar:hover{
+    transform: scale(1.1);
 }
 h1{
     margin-top: 1rem;
+}
+.bnts{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    align-items: center;
+    text-align:center;
+}
+
+.bnt-avaliar{
+    width: 100%;
+    color: green;
+    font-size: bold;
+    margin-top: 16;
+}
+
+.bnt-delete{
+    font-size: 0.8rem;
+    
+}
+
+.bnt-delete button{
+    display: flex;
+    background-color: rgba(255, 0, 0, 0.712);
+    width: 10px;
+    height: 10px;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    border: solid 1px;
+    box-shadow: 0.1px 0.1px 0.5rem rgb(0, 0, 0);
+    transition: 1s;
+}
+
+.bnt-delete button:hover{
+    transform: scale(1.1);
+}
+
+.filtro{
+    display: flex;
+    padding: 1rem;
+    margin-bottom: 1px;
+
 }

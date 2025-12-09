@@ -6,39 +6,11 @@
     "senha": "$2b$10$zfwPfI9cIUfH5AdNWLiZk.TqlPa7WGnUpTYVC1tvp3U8BrIrBeFjq",
     "assistidos": [
       {
-        "id": 24428,
-        "nome": "Os Vingadores: The Avengers",
-        "img": "https://image.tmdb.org/t/p/w500/j9hwS307Zlc5mQTbAnwV75vXG0H.jpg",
-        "descricao": "Loki, o irmão de Thor, ganha acesso ao poder ilimitado do cubo cósmico ao roubá-lo de dentro das instalações da S.H.I.E.L.D. Nick Fury, o diretor desta agência internacional que mantém a paz, logo reúne os únicos super-heróis que serão capazes de defender a Terra de ameaças sem precedentes. Homem de Ferro, Capitão América, Hulk, Thor, Viúva Negra e Gavião Arqueiro formam o time dos sonhos de Fury, mas eles precisam aprender a colocar os egos de lado e agir como um grupo em prol da humanidade.",
-        "avaliacao": 7.866
-      },
-      {
-        "id": 1431,
-        "nome": "CSI: Investigação Criminal",
-        "img": "https://image.tmdb.org/t/p/w500/1OOXYxrLLupCiUP78fDVGwaq0As.jpg",
-        "descricao": "Um dedicado grupo de investigadores forenses em um laboratório criminal de Las Vegas se empenha para resolver crimes quase sempre macabros. Trabalhando no turno da noite está o supervisor D.B. Russell, um verdadeiro Sherlock Holmes que devora livros de mistério e assassinatos. Os integrantes da equipe de Russell incluem Catherine Willows, Nick Stokes, Sara Sidle, Greg Sanders e Morgan Brody. O time trabalha de perto com o capitão Jim Brass, um detetive experiente. Entre os chefes anteriores do grupo estão Gus Grissom e o Dr. Raymond Langston.",
-        "avaliacao": 7.6
-      },
-      {
         "id": 157336,
         "nome": "Interestelar",
         "img": "https://image.tmdb.org/t/p/w500/6ricSDD83BClJsFdGB6x7cM0MFQ.jpg",
         "descricao": "As reservas naturais da Terra estão chegando ao fim e um grupo de astronautas recebe a missão de verificar possíveis planetas para receberem a população mundial, possibilitando a continuação da espécie. Cooper é chamado para liderar o grupo e aceita a missão sabendo que pode nunca mais ver os filhos. Ao lado de Brand, Jenkins e Doyle, ele seguirá em busca de um novo lar.",
-        "avaliacao": 8.463
-      },
-      {
-        "id": 299536,
-        "nome": "Vingadores: Guerra Infinita",
-        "img": "https://image.tmdb.org/t/p/w500/A4kvp7vY1BDLrrQIagRCffLKj1t.jpg",
-        "descricao": "Homem de Ferro, Thor, Hulk e os Vingadores se unem para combater seu inimigo mais poderoso, o maligno Thanos. Em uma missão para coletar todas as seis pedras infinitas, Thanos planeja usá-las para infligir sua vontade maléfica sobre a realidade.",
-        "avaliacao": 8.235
-      },
-      {
-        "id": 299534,
-        "nome": "Vingadores: Ultimato",
-        "img": "https://image.tmdb.org/t/p/w500/9fRX8UKlIW7Lb9GqNsJVakWWFCi.jpg",
-        "descricao": "Após os eventos devastadores de \"Vingadores: Guerra Infinita\", o universo está em ruínas devido aos esforços do Titã Louco, Thanos. Com a ajuda de aliados remanescentes, os Vingadores devem se reunir mais uma vez a fim de desfazer as ações de Thanos e restaurar a ordem no universo de uma vez por todas, não importando as consequências.",
-        "avaliacao": 8.237
+        "avaliacao": 9.2
       },
       {
         "id": 9408,
@@ -48,88 +20,52 @@
         "avaliacao": 6.477
       },
       {
-        "id": 411840,
-        "nome": "Tá Dando Onda 2",
-        "img": "https://image.tmdb.org/t/p/w500/iWlSZXOgzE3VkPsIfXj8eiIQlMl.jpg",
-        "descricao": "No segundo filme, o pinguim surfista Cadu Maverik está disposto a iniciar uma longa jornada em busca de uma praia que tem fama de ter as maiores ondas de todo o mundo. Ele vai convencer o grupo de surfistas The Hang 5 a acompanhá-lo nessa jornada insana",
-        "avaliacao": 6.037
+        "id": 24428,
+        "nome": "Os Vingadores: The Avengers",
+        "img": "https://image.tmdb.org/t/p/w500/j9hwS307Zlc5mQTbAnwV75vXG0H.jpg",
+        "descricao": "Loki, o irmão de Thor, ganha acesso ao poder ilimitado do cubo cósmico ao roubá-lo de dentro das instalações da S.H.I.E.L.D. Nick Fury, o diretor desta agência internacional que mantém a paz, logo reúne os únicos super-heróis que serão capazes de defender a Terra de ameaças sem precedentes. Homem de Ferro, Capitão América, Hulk, Thor, Viúva Negra e Gavião Arqueiro formam o time dos sonhos de Fury, mas eles precisam aprender a colocar os egos de lado e agir como um grupo em prol da humanidade.",
+        "avaliacao": 7.87
       },
       {
-        "id": 487491,
-        "nome": "Fala Sério, Mãe!",
-        "img": "https://image.tmdb.org/t/p/w500/p4YiseA6zPrXQMAJ7dj9GxCTHmo.jpg",
-        "descricao": "Ângela, mãe da adolescente Malu, está tendo a experiência de guiar sua filha durante uma das fases mais complicadas da vida. Ela vive uma montanha-russa de emoções, com medos, frustrações e um caminhão de queixas para descarregar. Por outro lado, Malu também tem suas insatisfações. Teimosa, sofre com os cuidados excessivos e com o jeito conservador da mãe.",
-        "avaliacao": 7.274
+        "id": 299534,
+        "nome": "Vingadores: Ultimato",
+        "img": "https://image.tmdb.org/t/p/w500/9fRX8UKlIW7Lb9GqNsJVakWWFCi.jpg",
+        "descricao": "Após os eventos devastadores de \"Vingadores: Guerra Infinita\", o universo está em ruínas devido aos esforços do Titã Louco, Thanos. Com a ajuda de aliados remanescentes, os Vingadores devem se reunir mais uma vez a fim de desfazer as ações de Thanos e restaurar a ordem no universo de uma vez por todas, não importando as consequências.",
+        "avaliacao": 10
       },
       {
-        "id": 49026,
-        "nome": "Batman: O Cavaleiro das Trevas Ressurge",
-        "img": "https://image.tmdb.org/t/p/w500/j4z01cnbTCaVX69bik1612pSuH6.jpg",
-        "descricao": "Após ser culpado pela morte de Harvey Dent e passar de herói a vilão, Batman desaparece. As coisas mudam com a chegada de uma ladra misteriosa, a Mulher-Gato, e Bane, um terrorista mascarado, que fazem Batman abandonar seu exílio forçado.",
-        "avaliacao": 7.79
+        "id": 13,
+        "nome": "Forrest Gump: O Contador de Histórias",
+        "img": "https://image.tmdb.org/t/p/w500/d74WpIsH8379TIL4wUxDneRCYv2.jpg",
+        "descricao": "Quarenta anos da história dos Estados Unidos, vistos pelos olhos de Forrest Gump, um rapaz com QI abaixo da média e com boas intenções. Por obra do acaso, ele consegue participar de momentos cruciais, como a Guerra do Vietnã e o Caso Watergate, mas continua pensando no seu amor de infância, Jenny Curran.",
+        "avaliacao": 8.463
       }
     ],
     "desejados": [
-      {
-        "id": 96677,
-        "nome": "Lupin",
-        "img": "https://image.tmdb.org/t/p/w500/sOUWRai0215iUSMackrZx3Y1j05.jpg",
-        "descricao": "Inspirado pelas aventuras de Arsène Lupin, o ladrão gentil Assane Diop quer se vingar de uma família rica por uma injustiça cometida contra o pai dele.",
-        "avaliacao": 7.725
-      },
-      {
-        "id": 71446,
-        "nome": "La casa de papel",
-        "img": "https://image.tmdb.org/t/p/w500/yVUAfbrP5HDJugXraB7KQS0yz6Z.jpg",
-        "descricao": "Um homem misterioso que atende pelo nome de El Profesor, está planejando o maior assalto do século. A fim de realizar o ambicioso plano ele recruta uma gangue de oito pessoas com certas habilidades que não tem nada a perder. O objetivo é infiltrar na Casa da Moeda, de modo que eles possam imprimir 2,4 bilhões de euros. Para fazer isso eles precisam de onze dias de reclusão, durante o qual eles vão ter que lidar com sessenta e sete reféns e as forças da Polícia de Elite, com cenas de muita ação e planos brilhantes de El Profesor.",
-        "avaliacao": 8.234
-      },
       {
         "id": 1729,
         "nome": "O Reino Proibido",
         "img": "https://image.tmdb.org/t/p/w500/2rEzOeG6he952m7tyFe7tOyfoko.jpg",
         "descricao": "Jason, um adolescente americano, é um grande fã do cinema de Hong Kong e de velhos filmes de kung-fu. Ao visitar uma loja de penhores em Chinatown, ele descobre a arma de um sábio chinês antigo e guerreiro, o Rei Macaco. A relíquia mágica transporta Jason de volta no tempo e ele se junta a um grupo de lendários artistas marciais em uma missão para libertar um homem preso.",
         "avaliacao": 6.631
+      },
+      {
+        "id": 96677,
+        "nome": "Lupin",
+        "img": "https://image.tmdb.org/t/p/w500/sOUWRai0215iUSMackrZx3Y1j05.jpg",
+        "descricao": "Inspirado pelas aventuras de Arsène Lupin, o ladrão gentil Assane Diop quer se vingar de uma família rica por uma injustiça cometida contra o pai dele.",
+        "avaliacao": 7.724
       }
     ],
     "sugestoes": {
-      "filmes": [
-        {
-          "id": 15426,
-          "nome": "Aniquilação",
-          "img": "https://image.tmdb.org/t/p/w500/oc0LUTfhDnYIVZRF5AlDZF4tbQE.jpg",
-          "descricao": "O simples cotidiano de uma cidade é ameaçado quando uma criatura renasce do fundo da terra e inicia um terrível massacre na região acabando com a vida de de dezenas de pessoas. Agora cabe a uma xerife que busca se redimir de um erro cometido no passado e um grupo de pessoas que visitam a cidade procurar alguma forma de parar essa fera que tem apenas um objetivo: a completa destruição!",
-          "avaliacao": 4.11
-        },
-        {
-          "id": 149871,
-          "nome": "O Conto da Princesa Kaguya",
-          "img": "https://image.tmdb.org/t/p/w500/cerV9QJhSdDlnUigrsKZQfOeTpA.jpg",
-          "descricao": "Kaguya era um minúsculo bebê quando foi encontrada dentro de um tronco de bambu brilhante. Passado o tempo, ela se transforma em uma bela jovem que passa a ser cobiçada por cinco nobres, dentre eles, o próprio Imperador. Mas nenhum deles é o que ela realmente quer. A moça envia seus pretendentes em tarefas aparentemente impossíveis para tentar evitar o casamento com um estranho que não ama. Mas Kaguya terá que enfrentar seu destino e punição por suas escolhas.",
-          "avaliacao": 8.1
-        },
-        {
-          "id": 1509418,
-          "nome": "Os Suspeitos",
-          "img": "https://image.tmdb.org/t/p/w500null",
-          "descricao": "Três amigos tentam sobreviver juntos em um mundo pós apocalíptico dominado por seres metamorfos.",
-          "avaliacao": 0
-        }
-      ],
+      "filmes": [],
       "series": [
         {
-          "id": 70523,
-          "nome": "Dark",
-          "img": "https://image.tmdb.org/t/p/w500/7yQyDCqSazrYTnmxdQLAZ8YDH87.jpg",
-          "descricao": "Quatro famílias iniciam uma desesperada busca por respostas quando uma criança desaparece e um complexo mistério envolvendo três gerações começa a se revelar.",
-          "avaliacao": 8.419
-        },
-        {
-          "id": 46648,
-          "nome": "True Detective",
-          "img": "https://image.tmdb.org/t/p/w500/1fxr55V72a2gtqyn2b8pf6FslOf.jpg",
-          "descricao": "Mostrando diferentes perspectivas tanto no passado como no presente, a narrativa se foca na investigação dos crimes supostamente cometidos por um serial killer no ano de 1995 feita pelos detetives Rust Cohle e Martin Hart. Nos dias atuais, o caso é aberto novamente e ambos são questionados pelos atuais detetives, já que a polícia tenta novamente prender o mesmo assassino. A série mostrará ao público o que acontece atualmente, ao mesmo tempo em que revela flashbacks da investigação nos anos 90.",
-          "avaliacao": 8.283
+          "id": 63646,
+          "nome": "Counterpart: Mundo Paralelo",
+          "img": "https://image.tmdb.org/t/p/w500/vknAINYvPBF5CN2gp9BtuqHXtNN.jpg",
+          "descricao": "Harold Silk tem seu emprego ameaçado quando descobre o grande segredo de que a organização esconde uma fórmula que permite passar para uma dimensão paralela.",
+          "avaliacao": 7.439
         },
         {
           "id": 54344,
@@ -137,6 +73,13 @@
           "img": "https://image.tmdb.org/t/p/w500/ri8xr223xBb2TeHX3GKypvQPV2B.jpg",
           "descricao": "Após dois por cento da população do mundo desaparecer, os que sobraram se esforçam para compreender.",
           "avaliacao": 7.6
+        },
+        {
+          "id": 70523,
+          "nome": "Dark",
+          "img": "https://image.tmdb.org/t/p/w500/7yQyDCqSazrYTnmxdQLAZ8YDH87.jpg",
+          "descricao": "Quatro famílias iniciam uma desesperada busca por respostas quando uma criança desaparece e um complexo mistério envolvendo três gerações começa a se revelar.",
+          "avaliacao": 8.419
         }
       ]
     }
