@@ -83,5 +83,268 @@
         }
       ]
     }
+  },
+  {
+    "id": "440b9a3f-1bb0-48a5-ac61-71eaf30d1556",
+    "nome": "jefferson",
+    "email": "jekonth@gmail.com",
+    "senha": "$2b$10$rzHu5jvwftpLnpSIzVXCZOONFp4iR6CeBeI7j3D2lFfBS.8re/dR.",
+    "assistidos": [
+      {
+        "id": 150361,
+        "nome": "O Tenente Boa Vida",
+        "img": "https://image.tmdb.org/t/p/w500/9hNVweHabwqO6obuGVWBee1JcfT.jpg",
+        "descricao": "Em 1944, os militares dos EUA recapturaram a ilha Rodahan do Pacífico Sul, que foi ocupada pelos japoneses. Todos os soldados japoneses na ilha se renderam, com exceção de uma pessoa, um soldado chamado Kobayashi Takashi. Ele não tinha armas nas mãos e, portanto, era considerado não perigoso.",
+        "avaliacao": 4.8
+      },
+      {
+        "id": 243881,
+        "nome": "Casa de Davi",
+        "img": "https://image.tmdb.org/t/p/w500/x8X4UdrWY2QCQU8zTE3sw3csoc6.jpg",
+        "descricao": "Conta a história da ascensão do ícone bíblico Davi, que se torna o mais famoso rei de Israel. O outrora poderoso rei Saul é vítima de seu próprio orgulho. Seguindo as ordens de Deus, o profeta Samuel unge um pária adolescente como o novo rei.",
+        "avaliacao": 8
+      },
+      {
+        "id": 63174,
+        "nome": "Lucifer",
+        "img": "https://image.tmdb.org/t/p/w500/hdKxcoV5CFc3sGOmbGXDXbx1cTZ.jpg",
+        "descricao": "Entediado com a vida nas trevas, o diabo se muda para Los Angeles, abre um piano-bar e empresta sua sabedoria a uma investigadora de assassinatos.",
+        "avaliacao": 8.44
+      },
+      {
+        "id": 200875,
+        "nome": "IT: Bem-Vindos a Derry",
+        "img": "https://image.tmdb.org/t/p/w500/gMTfrLvrDaD0zrhpLZ7zXIIpKfJ.jpg",
+        "descricao": "Durante as férias de 1958, em uma pacata cidadezinha chamada Derry, um grupo de sete amigos começa a ver coisas bizarras. Um conta que viu um palhaço, outro que viu uma múmia. Finalmente, acabam descobrindo que estavam todos vendo a mesma coisa: um ser sobrenatural e maligno que pode assumir várias formas. Ele mesmo. O Pennywise.",
+        "avaliacao": 8.165
+      },
+      {
+        "id": 24428,
+        "nome": "Os Vingadores: The Avengers",
+        "img": "https://image.tmdb.org/t/p/w500/j9hwS307Zlc5mQTbAnwV75vXG0H.jpg",
+        "descricao": "Loki, o irmão de Thor, ganha acesso ao poder ilimitado do cubo cósmico ao roubá-lo de dentro das instalações da S.H.I.E.L.D. Nick Fury, o diretor desta agência internacional que mantém a paz, logo reúne os únicos super-heróis que serão capazes de defender a Terra de ameaças sem precedentes. Homem de Ferro, Capitão América, Hulk, Thor, Viúva Negra e Gavião Arqueiro formam o time dos sonhos de Fury, mas eles precisam aprender a colocar os egos de lado e agir como um grupo em prol da humanidade.",
+        "avaliacao": 7.87
+      }
+    ],
+    "desejados": [
+      {
+        "id": 24428,
+        "nome": "Os Vingadores: The Avengers",
+        "img": "https://image.tmdb.org/t/p/w500/j9hwS307Zlc5mQTbAnwV75vXG0H.jpg",
+        "descricao": "Loki, o irmão de Thor, ganha acesso ao poder ilimitado do cubo cósmico ao roubá-lo de dentro das instalações da S.H.I.E.L.D. Nick Fury, o diretor desta agência internacional que mantém a paz, logo reúne os únicos super-heróis que serão capazes de defender a Terra de ameaças sem precedentes. Homem de Ferro, Capitão América, Hulk, Thor, Viúva Negra e Gavião Arqueiro formam o time dos sonhos de Fury, mas eles precisam aprender a colocar os egos de lado e agir como um grupo em prol da humanidade.",
+        "avaliacao": 7.87
+      }
+    ],
+    "sugestoes": {
+      "filmes": [
+        {
+          "id": 15426,
+          "nome": "Aniquilação",
+          "img": "https://image.tmdb.org/t/p/w500/oc0LUTfhDnYIVZRF5AlDZF4tbQE.jpg",
+          "descricao": "O simples cotidiano de uma cidade é ameaçado quando uma criatura renasce do fundo da terra e inicia um terrível massacre na região acabando com a vida de de dezenas de pessoas. Agora cabe a uma xerife que busca se redimir de um erro cometido no passado e um grupo de pessoas que visitam a cidade procurar alguma forma de parar essa fera que tem apenas um objetivo: a completa destruição!",
+          "avaliacao": 4.11
+        },
+        {
+          "id": 264660,
+          "nome": "Ex_Machina: Instinto Artificial",
+          "img": "https://image.tmdb.org/t/p/w500/hfpnFtgcYom9Gk9s1IyWiovpZYg.jpg",
+          "descricao": "Um jovem programador chamado Caleb ganha um concurso e recebe a oportunidade de testar uma inteligência artificial criada por Nathan, um brilhante e recluso bilionário. Mas conforme os testes progridem, Caleb descobre que essa inteligência artificial é tão sofisticada e imprevisível que ele não sabe mais em quem confiar.",
+          "avaliacao": 7.571
+        },
+        {
+          "id": 149871,
+          "nome": "O Conto da Princesa Kaguya",
+          "img": "https://image.tmdb.org/t/p/w500/cerV9QJhSdDlnUigrsKZQfOeTpA.jpg",
+          "descricao": "Kaguya era um minúsculo bebê quando foi encontrada dentro de um tronco de bambu brilhante. Passado o tempo, ela se transforma em uma bela jovem que passa a ser cobiçada por cinco nobres, dentre eles, o próprio Imperador. Mas nenhum deles é o que ela realmente quer. A moça envia seus pretendentes em tarefas aparentemente impossíveis para tentar evitar o casamento com um estranho que não ama. Mas Kaguya terá que enfrentar seu destino e punição por suas escolhas.",
+          "avaliacao": 8.1
+        }
+      ],
+      "series": [
+        {
+          "id": 70523,
+          "nome": "Dark",
+          "img": "https://image.tmdb.org/t/p/w500/7yQyDCqSazrYTnmxdQLAZ8YDH87.jpg",
+          "descricao": "Quatro famílias iniciam uma desesperada busca por respostas quando uma criança desaparece e um complexo mistério envolvendo três gerações começa a se revelar.",
+          "avaliacao": 8.419
+        },
+        {
+          "id": 54344,
+          "nome": "The Leftovers",
+          "img": "https://image.tmdb.org/t/p/w500/ri8xr223xBb2TeHX3GKypvQPV2B.jpg",
+          "descricao": "Após dois por cento da população do mundo desaparecer, os que sobraram se esforçam para compreender.",
+          "avaliacao": 7.651
+        },
+        {
+          "id": 67744,
+          "nome": "MINDHUNTER",
+          "img": "https://image.tmdb.org/t/p/w500/fbKE87mojpIETWepSbD5Qt741fp.jpg",
+          "descricao": "Um agente da Unidade de Crimes em Série do FBI desenvolve avançadas técnicas de psicologia criminal ao perseguir notórios assassinos e estupradores.",
+          "avaliacao": 8.1
+        }
+      ]
+    }
+  },
+  {
+    "id": "508097d1-608c-4e45-86e2-96a84c479e18",
+    "nome": "Os vingadores",
+    "email": "madu123455@gmail.com",
+    "senha": "$2b$10$ZbOcrC2q44cvFyzlGZbpOO9n.eGhr0rvlMGnHgeK/tAr2XjoUL.4m",
+    "assistidos": [
+      {
+        "id": 24428,
+        "nome": "Os Vingadores: The Avengers",
+        "img": "https://image.tmdb.org/t/p/w500/j9hwS307Zlc5mQTbAnwV75vXG0H.jpg",
+        "descricao": "Loki, o irmão de Thor, ganha acesso ao poder ilimitado do cubo cósmico ao roubá-lo de dentro das instalações da S.H.I.E.L.D. Nick Fury, o diretor desta agência internacional que mantém a paz, logo reúne os únicos super-heróis que serão capazes de defender a Terra de ameaças sem precedentes. Homem de Ferro, Capitão América, Hulk, Thor, Viúva Negra e Gavião Arqueiro formam o time dos sonhos de Fury, mas eles precisam aprender a colocar os egos de lado e agir como um grupo em prol da humanidade.",
+        "avaliacao": 7.87
+      },
+      {
+        "id": 60572,
+        "nome": "Pokémon",
+        "img": "https://image.tmdb.org/t/p/w500/ck1nfqYxMkiGvBVztIuM6b7fHoC.jpg",
+        "descricao": "Explore o mundo de Pokémon com Ash Ketchum e seu parceiro Pikachu enquanto eles fazem novos amigos, encontram Pokémon poderosos e buscam o objetivo supremo de Ash: Tornar-se um Mestre Pokémon!",
+        "avaliacao": 8
+      },
+      {
+        "id": 96677,
+        "nome": "Lupin",
+        "img": "https://image.tmdb.org/t/p/w500/sOUWRai0215iUSMackrZx3Y1j05.jpg",
+        "descricao": "Inspirado pelas aventuras de Arsène Lupin, o ladrão gentil Assane Diop quer se vingar de uma família rica por uma injustiça cometida contra o pai dele.",
+        "avaliacao": 7.724
+      },
+      {
+        "id": 246,
+        "nome": "Avatar: A Lenda de Aang",
+        "img": "https://image.tmdb.org/t/p/w500/7IJhby0sfQCN5ZIIseAWCw6j3xm.jpg",
+        "descricao": "Aang é um menino de 12 anos que descobre ser o Avatar, mestre responsável por garantir o equilíbrio entre os quatro elementos e suas respectivas nações, mantendo o planeta em paz.",
+        "avaliacao": 8.752
+      },
+      {
+        "id": 83533,
+        "nome": "Avatar: Fogo e Cinzas",
+        "img": "https://image.tmdb.org/t/p/w500/pyxoLO8nycvUHEabSHh9mqqcHGk.jpg",
+        "descricao": "Após a devastadora guerra contra a RDA e a perda de seu filho mais velho, Jake Sully e Neytiri enfrentam uma nova ameaça em Pandora: o Povo das Cinzas, uma tribo Na'vi violenta e sedenta por poder, liderada pelo implacável Varang. A família de Jake deve lutar por sua sobrevivência e pelo futuro de Pandora em um conflito que os leva aos seus limites emocionais e físicos.",
+        "avaliacao": 0
+      },
+      {
+        "id": 598,
+        "nome": "Cidade de Deus",
+        "img": "https://image.tmdb.org/t/p/w500/gfnXixcGC060QcG6JPxN6AMdVsq.jpg",
+        "descricao": "Buscapé é um jovem morador da Cidade de Deus que cresce em meio à violência. Com medo de se tornar um bandido, enxerga na fotografia uma oportunidade de ter uma vida digna.",
+        "avaliacao": 8.427
+      },
+      {
+        "id": 157336,
+        "nome": "Interestelar",
+        "img": "https://image.tmdb.org/t/p/w500/6ricSDD83BClJsFdGB6x7cM0MFQ.jpg",
+        "descricao": "As reservas naturais da Terra estão chegando ao fim e um grupo de astronautas recebe a missão de verificar possíveis planetas para receberem a população mundial, possibilitando a continuação da espécie. Cooper é chamado para liderar o grupo e aceita a missão sabendo que pode nunca mais ver os filhos. Ao lado de Brand, Jenkins e Doyle, ele seguirá em busca de um novo lar.",
+        "avaliacao": 8.463
+      },
+      {
+        "id": 10060,
+        "nome": "Fique Rico ou Morra Tentando",
+        "img": "https://image.tmdb.org/t/p/w500/lfBLbNmZ71R0FPvIu1zShJ6mxt0.jpg",
+        "descricao": "Após a morte de sua mãe quando ele era um menino, Marcus tem pouco apoio em sua vida. Ele começa a trabalhar para o traficante Levar e seu assistente. Apesar de Marcus fazer bom dinheiro vendendo drogas, seu sonho é se tornar um rapper. Quando ele reencontra um antigo amor e é baleado várias vezes durante um assalto, Marcus decide que é hora de mudar sua vida. No entanto, seus antigos sócios não vão deixá-lo ir tão facilmente.",
+        "avaliacao": 6.811
+      },
+      {
+        "id": 35138,
+        "nome": "O Pequeno Grande Guerreiro",
+        "img": "https://image.tmdb.org/t/p/w500/55sTNi1uj53ZjaIyWCPuvV5TsQL.jpg",
+        "descricao": "Na China Antiga esta devastada por conta da guerra entre dois reinos, dois homens sobrevivem ao banho de sangue ocorrido nos campos de batalha, um soldado de Liang e um jovem general de Wei. Procurando ganhar sua liberdade ao entregar o importante inimigo, o soldado captura o general e o leva até o seu senhor de guerra. Mas o jovem também não se opõe a captura, e, aos poucos, nasce uma forte ligação entre os dois homens, pondo em dúvida o final dessa jornada.",
+        "avaliacao": 6.902
+      },
+      {
+        "id": 1729,
+        "nome": "O Reino Proibido",
+        "img": "https://image.tmdb.org/t/p/w500/2rEzOeG6he952m7tyFe7tOyfoko.jpg",
+        "descricao": "Jason, um adolescente americano, é um grande fã do cinema de Hong Kong e de velhos filmes de kung-fu. Ao visitar uma loja de penhores em Chinatown, ele descobre a arma de um sábio chinês antigo e guerreiro, o Rei Macaco. A relíquia mágica transporta Jason de volta no tempo e ele se junta a um grupo de lendários artistas marciais em uma missão para libertar um homem preso.",
+        "avaliacao": 6.631
+      }
+    ],
+    "desejados": [
+      {
+        "id": 46260,
+        "nome": "Naruto",
+        "img": "https://image.tmdb.org/t/p/w500/9ptbVZpKNy5NY9D4zq4KGiYWRQY.jpg",
+        "descricao": "Momentos antes do nascimento de Naruto Uzumaki, um enorme demônio conhecido como o Kyuubi, a Raposa de Nove Caudas, atacou o vilarejo da folha oculta Konoha, causando destruição. Para pôr fim à devastação de Kyuubi, o líder da aldeia, o quarto Hokage, sacrificou sua vida e selou o monstruoso animal dentro do recém-nascido Naruto. Agora, Naruto é um ninja hiperativo e cabeça dura que ainda vivem em Konoha. Evitado pelos demais habitantes por causa da Kyuubi dentro dele, Naruto se esforça para encontrar seu lugar na aldeia, enquanto o seu ardente desejo de se tornar o Hokage de Konoha o leva a conhecer alguns grandes novos amigos, e também alguns inimigos mortais.",
+        "avaliacao": 8.364
+      },
+      {
+        "id": 1429,
+        "nome": "Attack on Titan",
+        "img": "https://image.tmdb.org/t/p/w500/8aMqmB5xSblsZc7bLMEhE28yHa2.jpg",
+        "descricao": "Titãs estão quase exterminando a raça humana. Porém alguns estão dispostos a formar um exército de ataque aos seres assassinos. O jovem Eren, após ver sua mãe ser devorada por um titã, decide que não deixará nenhum deles vivo e buscará sua vingança completa.",
+        "avaliacao": 8.67
+      },
+      {
+        "id": 1487,
+        "nome": "Super Choque",
+        "img": "https://image.tmdb.org/t/p/w500/CAzxjYTUQoq2jeUnn0z6BugdIP.jpg",
+        "descricao": "Virgil é um jovem esperto, inteligente, atlético, vivaz e muito bem-humorado. Ele foi exposto acidentalmente a um gás desconhecido. Ele ganhou superpoderes eletrostáticos, e os usou para tornar-se um super-herói chamado Super Choque.",
+        "avaliacao": 8.1
+      },
+      {
+        "id": 181812,
+        "nome": "Star Wars: A Ascensão Skywalker",
+        "img": "https://image.tmdb.org/t/p/w500/uLlrDUtFG2tKtDcJN6kBznlqqsp.jpg",
+        "descricao": "Com o retorno do Imperador Palpatine, todos voltam a temer seu poder e, com isso, a Resistência toma a frente da batalha que ditará os rumos da galáxia. Treinando para ser uma completa Jedi, Rey ainda se encontra em conflito com seu passado e futuro, mas teme pelas respostas que pode conseguir a partir de sua complexa ligação com Kylo Ren, que também se encontra em conflito pela Força.",
+        "avaliacao": 6.278
+      },
+      {
+        "id": 181808,
+        "nome": "Star Wars: Os Últimos Jedi",
+        "img": "https://image.tmdb.org/t/p/w500/hg1MoUoyTetxtYpSOYvazRJDopR.jpg",
+        "descricao": "A tranquila e solitária vida de Luke Skywalker sofre uma reviravolta quando ele conhece Rey, uma jovem que mostra fortes sinais da Força. O desejo dela de aprender o estilo dos Jedi força Luke a tomar uma decisão que mudará sua vida para sempre. Enquanto isso, Kylo Ren e o General Hux lideram a Primeira Ordem para um ataque total contra Leia e a Resistência pela supremacia da galáxia.",
+        "avaliacao": 6.764
+      }
+    ],
+    "sugestoes": {
+      "filmes": [
+        {
+          "id": 15426,
+          "nome": "Aniquilação",
+          "img": "https://image.tmdb.org/t/p/w500/oc0LUTfhDnYIVZRF5AlDZF4tbQE.jpg",
+          "descricao": "O simples cotidiano de uma cidade é ameaçado quando uma criatura renasce do fundo da terra e inicia um terrível massacre na região acabando com a vida de de dezenas de pessoas. Agora cabe a uma xerife que busca se redimir de um erro cometido no passado e um grupo de pessoas que visitam a cidade procurar alguma forma de parar essa fera que tem apenas um objetivo: a completa destruição!",
+          "avaliacao": 4.11
+        },
+        {
+          "id": 329865,
+          "nome": "A Chegada",
+          "img": "https://image.tmdb.org/t/p/w500/3rDwbFpn6z5HJUgDjpfhEePx8VI.jpg",
+          "descricao": "Quando seres interplanetários deixam marcas na Terra, a Dra. Louise Banks, uma linguista especialista no assunto, é procurada por militares para traduzir os sinais e desvendar se os alienígenas representam uma ameaça. No entanto, a resposta para todas as perguntas e mistérios coloca em risco  a vida de Louise e a de toda a humanidade.",
+          "avaliacao": 7.623
+        },
+        {
+          "id": 640,
+          "nome": "Prenda-Me se For Capaz",
+          "img": "https://image.tmdb.org/t/p/w500/tqZo6J2Hl7nAEVtSSr1fgKssKIH.jpg",
+          "descricao": "Frank Abagnale Jr. já foi médico, advogado e co-piloto, tudo isso com apenas 18 anos. Mestre na arte do disfarce, ele aproveita suas habilidades para viver a vida como quer e praticar golpes milionários, que fazem com que se torne o ladrão de banco mais bem-sucedido da história dos Estados Unidos com apenas 17 anos. Mas em seu encalço está o agente do FBI Carl Hanratty, que usa todos os meios que tem ao seu dispor para encontrá-lo e capturá-lo.",
+          "avaliacao": 7.978
+        }
+      ],
+      "series": [
+        {
+          "id": 115004,
+          "nome": "Mare of Easttown",
+          "img": "https://image.tmdb.org/t/p/w500/4oVWbd2NKglFG9UO46VhW4v6nFD.jpg",
+          "descricao": "Mare Sheehan é uma detetive de uma pequena cidade na Pensilvânia que deve investigar um violento assassinato local. Conforme o lado sombrio da pequena comunidade vem à luz, a vida de Mare desmorona e relacionamentos familiares e tragédias do passado ressurgem para definir o presente.",
+          "avaliacao": 8.2
+        },
+        {
+          "id": 70523,
+          "nome": "Dark",
+          "img": "https://image.tmdb.org/t/p/w500/7yQyDCqSazrYTnmxdQLAZ8YDH87.jpg",
+          "descricao": "Quatro famílias iniciam uma desesperada busca por respostas quando uma criança desaparece e um complexo mistério envolvendo três gerações começa a se revelar.",
+          "avaliacao": 8.419
+        },
+        {
+          "id": 81349,
+          "nome": "Devs",
+          "img": "https://image.tmdb.org/t/p/w500/uv63iNWOh69bSJYJQZjiX6n8B3m.jpg",
+          "descricao": "A jovem engenheira de software Lily Chan investiga a divisão secreta de desenvolvimento de seu empregador, uma empresa de tecnologia de ponta com sede no Vale do Silício, que ela acredita estar por trás do assassinato de seu namorado.",
+          "avaliacao": 7.318
+        }
+      ]
+    }
   }
 ]

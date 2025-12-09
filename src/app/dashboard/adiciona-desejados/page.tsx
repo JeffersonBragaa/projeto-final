@@ -1,5 +1,6 @@
 import { procuraFilme } from "@/src/api/apifilme";
 import { FilmeProps } from "../adiciona-assistidos/page";
+import '@/src/app/styles/adiciona.css';
 import Banco from "@/src/libs/banco";
 import { retornaId } from "@/src/libs/session";
 import { redirect } from "next/navigation";
@@ -39,17 +40,25 @@ export default function Desejados() {
     }
 
     return (
-        <div>
+        <div className="principal-adiciona">
             <h2>Adicione Filmes Que Você Deseja Assistir!</h2>
-            <form action={adicionaDesejados}>
-                <input
-                    type="text"
-                    name="nome"
-                    id="nome"
-                    placeholder="Titulo do Filme ou serie"
-                />
-                <button>Adicionar</button>
-            </form>
+
+            <div className="card-adiciona">
+
+                <form action={adicionaDesejados}>
+                    <input
+                        type="text"
+                        name="nome"
+                        id="nome"
+                        placeholder="Titulo do Filme"
+                    />
+                    <div>
+                        
+                        <button id="bnt-add">Adicionar</button>
+
+                    </div>
+                </form>
+            </div>
         </div>
     )
 

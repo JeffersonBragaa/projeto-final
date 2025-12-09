@@ -1,5 +1,6 @@
 import { procuraFilme } from "@/src/api/apifilme";
 import Banco from "@/src/libs/banco";
+import '@/src/app/styles/adiciona.css'
 import { retornaId } from "@/src/libs/session";
 import { cookies } from "next/headers";
 import { redirect } from "next/navigation";
@@ -8,7 +9,7 @@ export interface FilmeProps {
     id: string,
     nome: string,
     img: string,
-    descricao: string, 
+    descricao: string,
     avaliacao: number
 }
 
@@ -30,25 +31,23 @@ export default function Assistidos() {
             id: retorno.id,
             nome: retorno.nome,
             img: retorno.img,
-            descricao: retorno.descricao, 
+            descricao: retorno.descricao,
             avaliacao: retorno.avaliacao
         };
 
         console.log(JSON.stringify(novo, null, 2));
-        
-        
-        //aqui vai a logica de adicionar o filme no vetor do usuario
+
+
         const userId = await retornaId();
-        console.log("retornou isso aqui:", userId);
-        
+
         const dbusers = await Banco.retornaBanco(db)
         const usuarioIndex = dbusers.findIndex((u: any) => String(u.id) === String(userId));
 
-        const usuario = dbusers[usuarioIndex]; 
-        usuario.assistidos.push(novo); 
+        const usuario = dbusers[usuarioIndex];
+        usuario.assistidos.push(novo);
         dbusers[usuarioIndex] = usuario;
         await Banco.escreveBanco(db, dbusers)
-        
+
         redirect('/dashboard/')
 
     };
@@ -56,18 +55,25 @@ export default function Assistidos() {
 
     return (
 
-        <div>
+        <div className="principal-adiciona">
             <h2>Adicione Filmes Que Você já Assistiu!</h2>
 
-            <form action={adicionaAssistidos}>
-                <input
-                    type="text"
-                    name="nome"
-                    id="nome"
-                    placeholder="Titulo do Filme"
-                />
-                <button>Adicionar</button>
-            </form>
+            <div className="card-adiciona">
+
+                <form action={adicionaAssistidos}>
+                    <input
+                        type="text"
+                        name="nome"
+                        id="nome"
+                        placeholder="Titulo do Filme"
+                    />
+                    <div>
+                        
+                        <button id="bnt-add">Adicionar</button>
+
+                    </div>
+                </form>
+            </div>
         </div>
     )
 }

@@ -13,15 +13,23 @@ export default function Create() {
 
     const criarUser = async (formData: FormData) => {
         'use server';
-
-        const novoUser: CreateFormData = {
+        
+        const novoUser = {
             nome: formData.get('nome') as string,
             email: formData.get('email') as string,
             senha: formData.get('senha') as string,
+            confSenha: formData.get('confSenha') as string
         }
-        // Lógica de criação de usuário aqui
+        if(novoUser.senha != novoUser.confSenha){
+            console.error('Senhas diferentes');
+            return;
+        }
 
-        await criaUserDB(novoUser as CreateFormData);
+
+        const retorno = await criaUserDB(novoUser as CreateFormData);
+        if(!retorno){
+            redirect('/create');
+        }
         redirect('/login');
     }
 
@@ -37,6 +45,9 @@ export default function Create() {
             </div>
             <div>
                 <input type="password" name='senha' placeholder="Senha" />
+            </div>
+            <div>
+                <input type="password" name='confSenha' placeholder="Confirme sua Senha" />
             </div>
             <button type="submit">Registrar</button>
         </form>

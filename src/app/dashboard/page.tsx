@@ -1,9 +1,10 @@
 import Banco from "@/src/libs/banco";
 import Filme from "../ui/filmes";
 import Link from "next/link";
+import '@/src/app/globals.css'
 import { retornaId } from "@/src/libs/session";
 import '@/src/app/styles/dashboard-filmes.css';
-import { recomendarConteudos } from '@/src/api/apiIA';
+
 const db: string = 'users.json';
 
 
@@ -14,7 +15,7 @@ export default async function Dashboard() {
     const usuario = dados.find((u: any) => String(u.id) === String(retorno));
 
     usuario.assistidos.sort((a: any, b: any) => {
-        return b.avaliacao - a.avaliacao; 
+        return b.avaliacao - a.avaliacao;
     });
 
     const filmes_assistidos = usuario.assistidos.map((p: any) => {
@@ -35,7 +36,7 @@ export default async function Dashboard() {
     return (
         <section>
 
-            <h1>Bem-vindo ao Dashboard</h1>
+            <h1>Bem-vindo a Sua Coleção de Filmes</h1>
             <div className="principal">
 
                 <div className="adicionar">
@@ -91,8 +92,13 @@ export default async function Dashboard() {
                     {seriesIA.length > 0 ? seriesIA : <p>Nenhuma sugestão disponível.</p>}
 
                 </div>
-                <p>Clique abaixo para gerar sugestões da IA através de uma análise do seu perfil!</p>
-                <Link href={'/dashboard/Analise-IA'} className="adiciona-bnt">Gerar Sugestões</Link>
+                <p id="IAtext">Clique abaixo para gerar sugestões da IA através de uma análise do seu perfil!</p>
+                
+                
+                <div className="bnt-IA">
+
+                    <Link href={'/dashboard/Analise-IA'} className="adiciona-bnt">Gerar Sugestões</Link>
+                </div>
             </div>
         </section>
 

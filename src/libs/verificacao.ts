@@ -22,13 +22,12 @@ export async function criaUserDB(dados: LoginCredencias) {
         }
     }
 
-    console.log(`criando usuário: ${user.nome} - ${user.email}`);
     const usuariosAtuais = await Banco.retornaBanco('users.json');
 
     for (let i in usuariosAtuais) {
         if (user.email === usuariosAtuais[i].email) {
             console.error('Usuario já existe');
-            return;
+            return false;
         }
     }
 

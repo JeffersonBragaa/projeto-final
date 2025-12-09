@@ -1,4 +1,5 @@
 import Banco from "@/src/libs/banco";
+import '@/src/app/styles/adiciona.css';
 import { retornaId } from "@/src/libs/session";
 import { redirect } from "next/navigation";
 
@@ -53,23 +54,26 @@ export default async function EditFilme({ searchParams }: EditPageProps) {
     };
 
     return (
-        <div>
-            <h1>Avaliação de Filmes</h1>
+        <section>
 
-            <form action={avaliarFilme} className="avaliacao-filme">
-                <div>
-                    <input
-                        type="number"
-                        name="avaliacao"
-                        defaultValue={filme.avaliacao ?? ""}
-                        min={0}
-                        max={10}
-                        step={0.1}
-                    />
-                </div>
+            <div className="principal-adiciona">
+                <h1>Avaliação de Filmes</h1>
 
-                <button type="submit">Avaliar</button>
-            </form>
-        </div>
+                <form action={avaliarFilme} className="avaliacao-filme">
+                    <div>
+                        <input
+                            type="number"
+                            name="avaliacao"
+                            defaultValue={filme.avaliacao ?? ""}
+                            min={0}
+                            max={10}
+                            step={0.1}
+                        />
+                    </div>
+
+                    <button type="submit">Avaliar</button>
+                </form>
+            </div>
+        </section>
     );
 }

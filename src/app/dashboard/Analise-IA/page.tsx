@@ -3,6 +3,7 @@ import { recomendarConteudos } from "@/src/api/apiIA";
 import Banco from "@/src/libs/banco";
 import { retornaId } from "@/src/libs/session";
 import { FilmeProps } from "../adiciona-assistidos/page";
+import '@/src/app/styles/analise-ia.css';
 const bd: string = 'users.json';
 
 export default async function AnaliseIA() {
@@ -26,7 +27,7 @@ export default async function AnaliseIA() {
                 id: filme.id,
                 nome: filme.nome,
                 img: filme.img,
-                descricao: filme.descricao, 
+                descricao: filme.descricao,
                 avaliacao: filme.avaliacao
             };
             usuario.sugestoes.filmes.push(filmeNovo);
@@ -35,7 +36,7 @@ export default async function AnaliseIA() {
             const serieNova: FilmeProps = {
                 id: series.id,
                 nome: series.nome,
-                img: series.img, 
+                img: series.img,
                 descricao: series.descricao,
                 avaliacao: series.avaliacao
             };
@@ -46,12 +47,14 @@ export default async function AnaliseIA() {
     await Banco.escreveBanco(bd, dados);
 
     return (
-        <div>
-            <form action={'/dashboard/'}>
-                <button>Gerar Analise</button>
-            </form>
-            <h1>Analise IA</h1>
-            <p>Aqui você pode gerar uma análise personalizada com base nos seus filmes assistidos e desejados.</p>
+        <div className="analiseia">
+            <h1>Sua Analise Foi Gerada Com Sucesso!!</h1>
+            <p>Clique no Botão a Baixo e veja a Atualização no seu Dashboard </p>
+            <div className="bnt-dashboard">
+                <form action={'/dashboard/'}>
+                    <button>Ver Analise</button>
+                </form>
+            </div>
         </div>
     )
 }

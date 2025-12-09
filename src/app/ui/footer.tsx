@@ -6,7 +6,7 @@ export default function Footer(){
 
     return(
         <footer>
-            <p>Feito com ❤ por <a href="">GitHub</a></p>
+            <p>Feito com ❤ por <a href="https://github.com/JeffersonBragaa/projeto-final" target="_blank" rel="noopener noreferrer">GitHub</a></p>
         </footer>
     )
 }
