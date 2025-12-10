@@ -1,36 +1,161 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# 📽️ Repositório Versátil de Filmes e Séries
 
-## Getting Started
+Um sistema completo para gerenciar filmes e séries assistidos ou desejados — mas indo além de um simples repositório.  
+Aqui, uma IA integrada analisa seus gostos, identifica padrões e recomenda automaticamente 3 filmes e 3 séries alinhados ao seu perfil.
 
-First, run the development server:
+O projeto traz funcionalidades de avaliação, ordenação, organização e uma experiência de navegação fluida.
 
+---
+
+## 🚀 Tecnologias Utilizadas
+
+- **Next.js**
+- **JavaScript & TypeScript**
+- **HTML & CSS**
+- **JSON** como banco de dados local
+- **API TMDB** (dados oficiais)
+- **OpenAI API** (IA para recomendações)
+- **JWT** para autenticação
+- Middleware do Next.js para rotas privadas
+
+---
+
+## 🧠 Inteligência Artificial Integrada
+
+A IA:
+
+- Lê todos os seus assistidos, desejados e avaliações.
+- Identifica padrões no seu comportamento.
+- Cria um perfil cinematográfico.
+- Gera recomendações estruturadas via OpenAI.
+
+---
+
+## 🔐 Autenticação e Proteção de Rotas
+
+Implementado com:
+
+- JWT assinado com **SignJWT**
+- Decodificação com **decodeJwt**
+- Cookies HttpOnly
+- Middleware protegendo rotas sensíveis
+- Sessões seguras por usuário
+
+---
+
+## 📡 Integrações Externas
+
+### TMDB
+- Busca dados oficiais de filmes e séries  
+- Carrega imagens de alta resolução  
+- Mantém o repositório sempre atualizado  
+
+### OpenAI
+- Analisa o perfil do usuário  
+- Interpreta comportamento cinematográfico  
+- Recomenda automaticamente 3 filmes e 3 séries  
+
+---
+
+## 🗃️ Banco de Dados (JSON)
+
+Armazena:
+
+- Usuários  
+- Filmes assistidos  
+- Filmes desejados  
+- Avaliações pessoais  
+- Dados utilizados pela IA  
+
+---
+
+## 🧭 Funcionalidades
+
+### 🔹 1. Dashboard Inicial
+- Introdução ao site  
+- Login e cadastro  
+
+### 🔹 2. Autenticação Completa
+- Login  
+- Cadastro  
+- Middleware para rotas privadas  
+- Sessão persistente via JWT  
+
+### 🔹 3. Dashboard Principal
+- Listagem completa  
+- Adição de assistidos  
+- Adição de desejados  
+- Avaliação pessoal  
+- Ordenação por nota  
+- Remoção de itens  
+- Interface responsiva  
+
+### 🔹 4. Análise da IA
+- Perfil gerado automaticamente  
+- Recomendações personalizadas  
+- 3 filmes e 3 séries  
+- Baseado no comportamento do usuário  
+
+### 🔹 5. Ações Globais
+- Logout  
+- Retorno ao dashboard  
+- Link direto para TMDB  
+
+---
+
+## 📁 Estrutura do Projeto
+
+src/
+├── api
+├── app
+│ ├── (auth)
+│ │ └── create/
+│ ├── login/
+│ ├── dashboard/
+│ ├── dashboardInicial/
+│ ├── db/users.json
+│ ├── page.tsx
+│ └── layout.tsx
+├── libs
+│ ├── banco.ts
+│ ├── session.ts
+│ └── verificacao.ts
+├── styles
+└── ui
+
+1. Clone o repositório:
 ```bash
+git clone https://github.com/JeffersonBragaa/projeto-final.git
+
+2. Entre no diretório:
+cd SEU_REPOSITORIO
+
+
+3. Instale as dependências:
+npm install
+
+
+4. Crie o arquivo .env.local:
+TMDB_API_KEY=sua_chave_tmdb
+OPENAI_API_KEY=sua_chave_openai
+JWT_SECRET=sua_chave_secreta
+
+
+5. Execute o projeto:
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+6. Acesse: http://localhost:3000
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
 
-## Learn More
+🧪 Roadmap (Melhorias Futuras)
 
-To learn more about Next.js, take a look at the following resources:
+Migrar JSON para banco real (PostgreSQL ou MongoDB)
+Filtros avançados por gênero
+Modo escuro
+Favoritos
+Perfil público compartilhável
+App mobile offline
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+📄 Licença
+Prejeto aberto para estudos e evolução pessoal.
