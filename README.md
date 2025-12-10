@@ -105,57 +105,76 @@ Armazena:
 
 ## 📁 Estrutura do Projeto
 
+```
 src/
-├── api
-├── app
-│ ├── (auth)
-│ │ └── create/
-│ ├── login/
-│ ├── dashboard/
-│ ├── dashboardInicial/
-│ ├── db/users.json
-│ ├── page.tsx
-│ └── layout.tsx
-├── libs
-│ ├── banco.ts
-│ ├── session.ts
-│ └── verificacao.ts
-├── styles
-└── ui
+ ├── api/
+ ├── app/
+ │   ├── (auth)/
+ │   │   └── create/
+ │   ├── login/
+ │   ├── dashboard/
+ │   ├── dashboardInicial/
+ │   ├── db/
+ │   │   └── users.json
+ │   ├── page.tsx
+ │   └── layout.tsx
+ ├── libs/
+ │   ├── banco.ts
+ │   ├── session.ts
+ │   └── verificacao.ts
+ ├── styles/
+ └── ui/
+```
 
-1. Clone o repositório:
+## ⚙️ Como Rodar o Projeto
+
+### 1. Clone o repositório
 ```bash
 git clone https://github.com/JeffersonBragaa/projeto-final.git
+```
 
-2. Entre no diretório:
-cd SEU_REPOSITORIO
+### 2. Entre no diretório
+```bash
+cd projeto-final
+```
 
-
-3. Instale as dependências:
+### 3. Instale as dependências
+```bash
 npm install
+```
 
+### 4. Crie o arquivo `.env.local`
+Exemplo:
 
-4. Crie o arquivo .env.local:
+```
 TMDB_API_KEY=sua_chave_tmdb
 OPENAI_API_KEY=sua_chave_openai
 JWT_SECRET=sua_chave_secreta
+```
 
-
-5. Execute o projeto:
+### 5. Execute o projeto
+```bash
 npm run dev
+```
 
+### 6. Acesse no navegador
+```
+http://localhost:3000
+```
 
-6. Acesse: http://localhost:3000
+---
 
+## 🧪 Roadmap (Melhorias Futuras)
 
-🧪 Roadmap (Melhorias Futuras)
+- Migrar JSON para banco real (PostgreSQL ou MongoDB)
+- Filtros avançados por gênero  
+- Modo escuro  
+- Favoritos  
+- Perfil público compartilhável  
+- App mobile offline  
 
-Migrar JSON para banco real (PostgreSQL ou MongoDB)
-Filtros avançados por gênero
-Modo escuro
-Favoritos
-Perfil público compartilhável
-App mobile offline
+---
 
-📄 Licença
-Prejeto aberto para estudos e evolução pessoal.
+## 📄 Licença
+
+Projeto aberto para estudos e evolução pessoal.
